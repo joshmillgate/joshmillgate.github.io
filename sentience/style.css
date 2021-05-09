@@ -14,6 +14,11 @@ body {
   font-size: 1vw;
 }
 
+/* --- Adjust the max width of pages --- */
+.super-content.max-width, .notion-header__content.max-width {
+  max-width: 1080px !important;
+}
+
 h1 {
   font-size: 4em;
   line-height: 1.17;
@@ -70,6 +75,12 @@ h1 {
   display: none!important;
 }
 
+.notion-collection-card__cover {
+  height: auto!important;
+  overflow: auto!important;
+  border: none!important;
+}
+
 .notion-collection-card__cover .medium {
   width: 50%!important;
 }
@@ -95,4 +106,9 @@ min-height: 100%;
 max-height: 100%; 
 object-fit: cover; 
 object-position: center 50%;
+}
+
+.notion-collection-card__cover.large, .notion-collection-card__cover.large>div, .notion-collection-card__cover.large img, .notion-collection-card__cover.medium, .notion-collection-card__cover.medium>div, .notion-collection-card__cover.medium img {
+  height:auto!important;
+  max-height: auto!important;
 }

@@ -81,9 +81,10 @@ h1 {
   flex-direction: row-reverse!important;
   justify-content: center!important;
   align-items:flex-start!important;
-  background: --color-bg-dark!important;
-  color: --color-text-light!important;
+  background: rgb(45, 45, 45)!important;
+  color:#ddd!important;
 }
+
 
 .notion-property .notion-property__title {
   width: 50%!important;
@@ -143,9 +144,10 @@ border-radius: 0px!important;
   font-size: 1.375rem!important;
   margin-right: 50px!important;
   padding: 0px!important;
-  padding-left: 20px;
-  padding-top: 20px;
-  line-height: 1.2;
+  padding-left: 20px!important;
+  padding-top: 20px!important;
+  line-height: 1.2!important;
+  flex: 1!important;
 }
 
 h1.notion-heading {

@@ -90,22 +90,22 @@ h1 {
 }
 
 .notion-collection-card__cover > div > img {
-visibility: visible; 
-position:static!important;
-inset: 0px; 
-box-sizing: border-box; 
-padding: 0px; 
-border: none;
-margin: auto; 
-display: block; 
-width: 100%!important;
-height: auto!important;
-min-width: 100%; 
-max-width: 100%; 
-min-height: 100%; 
-max-height: 100%; 
-object-fit: cover; 
-object-position: center 50%;
+  visibility: visible; 
+  position:static!important;
+  inset: 0px; 
+  box-sizing: border-box; 
+  padding: 0px; 
+  border: none;
+  margin: auto; 
+  display: block; 
+  width: 100%!important;
+  height: auto!important;
+  min-width: 100%; 
+  max-width: 100%; 
+  min-height: 100%; 
+  max-height: 100%; 
+  object-fit: cover; 
+  object-position: center 50%;
 border-radius: 0px!important;
 }
 
@@ -122,4 +122,12 @@ border-radius: 0px!important;
 
 .notion-collection-card .notion-property__title {
   font-size: 1.375rem!important;
+  margin-right: 50px!important;
+}
+
+h1 .notion-heading {
+  text-align: center!important;
+  font-weight: 100!important;
+  font-size: 3rem!important;
+  margin-bottom: 120px!important;
 }

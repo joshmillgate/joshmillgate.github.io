@@ -30,8 +30,12 @@ h1 {
   }
 }
 
+.notion-property__title__icon-wrapper {
+  display: none!important;
+}
+
 .notion-collection-card:hover {
-  background: transparent !important;
+  background: transparent!important;
 }
 
 .notion-collection-gallery {
@@ -40,22 +44,22 @@ h1 {
 
 .notion-collection-card .gallery {
   width: 100%;
-  display: flex;
+  display: flex!important;
   flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
 }
 
 .notion-collection-card__content {
-  display: none;
+  display: none!important;
 }
 
 .notion-collection-card__cover {
-  height: auto;
-  overflow: auto;
+  height: auto!important;
+  overflow: auto!important;
 }
 
 .notion-collection-card__cover.medium {
-  max-height: auto;
-  height: auto;
+  max-height: auto!important;
+  height: auto!important;
 }

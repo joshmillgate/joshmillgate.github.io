@@ -38,12 +38,11 @@ h1 {
   background: transparent!important;
 }
 
-
 .notion-collection-gallery {
   display: flex!important;
 }
 
-.notion-collection-card{
+.notion-collection-card .gallery {
   width: 100%;
   display: flex!important;
   flex-direction: row-reverse!important;
@@ -66,6 +65,22 @@ h1 {
 .notion-collection-card__cover > div {
   position:static!important;
 }
+
 .notion-collection-card__cover > div > img {
+visibility: visible; 
 position:static!important;
+inset: 0px; 
+box-sizing: border-box; 
+padding: 0px; 
+border: none;
+margin: auto; 
+display: block; 
+width: 100%!important;
+height: auto!important;
+min-width: 100%; 
+max-width: 100%; 
+min-height: 100%; 
+max-height: 100%; 
+object-fit: cover; 
+object-position: center 50%;
 }

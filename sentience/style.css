@@ -19,6 +19,11 @@ h1 {
   line-height: 1.17;
 }
 
+/* Hide page title */
+.notion-header__title {
+  display: none;
+}
+
 /* Override default card styling */
 .notion-collection-card {
   border-radius: 0 !important;

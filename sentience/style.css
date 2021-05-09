@@ -90,7 +90,10 @@ h1 {
 }
 
 .notion-collection-card__content {
-  display: none!important;
+  display: block!important;
+  position: absolute!important;
+  left: 0!important;
+  bottom: 0!important;
 }
 
 .notion-collection-card__cover {

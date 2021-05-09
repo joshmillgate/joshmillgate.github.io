@@ -38,18 +38,34 @@ h1 {
   background: transparent!important;
 }
 
+
 .notion-collection-gallery {
-  display: flex;
+  display: flex!important;
 }
 
-.notion-collection-card .gallery {
+.notion-collection-card{
   width: 100%;
   display: flex!important;
-  flex-direction: row-reverse;
+  flex-direction: row-reverse!important;
   justify-content: center;
   align-items: center;
 }
 
+.notion-property .notion-property__title {
+  width: 50%!important;
+}
+
 .notion-collection-card__content {
   display: none!important;
+}
+
+.notion-collection-card__cover .medium {
+  width: 50%!important;
+}
+
+.notion-collection-card__cover > div {
+  position:static!important;
+}
+.notion-collection-card__cover > div > img {
+position:static!important;
 }

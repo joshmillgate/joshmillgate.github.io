@@ -42,7 +42,7 @@ h1 {
   display: flex!important;
 }
 
-.notion-collection-card .gallery {
+.notion-collection-card {
   width: 100%;
   display: flex!important;
   flex-direction: row-reverse!important;

@@ -125,7 +125,7 @@ border-radius: 0px!important;
   margin-right: 50px!important;
 }
 
-h1 .notion-heading {
+h1.notion-heading {
   text-align: center!important;
   font-weight: 100!important;
   font-size: 3rem!important;

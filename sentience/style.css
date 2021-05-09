@@ -1,9 +1,11 @@
 /* TEST */
 /* Variables */
 :root {
+  --color-bg-dark: rgb(38, 38, 38) !important;
   --color-bg-default: rgb(242, 241, 240) !important;
   --color-bg-light-default: rgba(242, 241, 240, 0.25) !important;
   --color-text-default: rgb(0, 0, 0) !important;
+  --color-text-light: rgb(255, 255, 255) !important;
 }
 
 body {
@@ -22,6 +24,24 @@ body {
 h1 {
   font-size: 4em;
   line-height: 1.17;
+}
+
+.notion-navbar {
+  height: 45px;
+  padding: 0 14px;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  align-items: center;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  color: white;
+  background-color: rgb(33, 33, 33);
 }
 
 /* Hide page title */
@@ -46,7 +66,7 @@ h1 {
 }
 
 .notion-collection-card:hover {
-  background: transparent!important;
+  background: lighten(--color-bg-dark, 2%)!important;
 }
 
 .notion-collection-gallery {
@@ -59,8 +79,10 @@ h1 {
   width: 100%;
   display: flex!important;
   flex-direction: row-reverse!important;
-  justify-content: center;
-  align-items: center;
+  justify-content: center!important;
+  align-items:flex-start!important;
+  background: --color-bg-dark!important;
+  color: --color-text-light!important;
 }
 
 .notion-property .notion-property__title {
@@ -117,7 +139,10 @@ border-radius: 0px!important;
 .notion-collection-card .notion-property__title {
   font-size: 1.375rem!important;
   margin-right: 50px!important;
-  flex: 1!important;
+  padding: 0px!important;
+  padding-left: 20px;
+  padding-top: 20px;
+  line-height: 1.2;
 }
 
 h1.notion-heading {

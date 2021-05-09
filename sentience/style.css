@@ -66,7 +66,7 @@ h1 {
 }
 
 .notion-collection-card:hover {
-  background: lighten(--color-bg-dark, 2%)!important;
+  background: lighten(rgb(45, 45, 45), 2%)!important;
 }
 
 .notion-collection-gallery {

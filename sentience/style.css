@@ -106,9 +106,16 @@ min-height: 100%;
 max-height: 100%; 
 object-fit: cover; 
 object-position: center 50%;
+border-radius: 0px!important;
 }
 
 .notion-collection-card__cover.large, .notion-collection-card__cover.large>div, .notion-collection-card__cover.large img, .notion-collection-card__cover.medium, .notion-collection-card__cover.medium>div, .notion-collection-card__cover.medium img {
   height:auto!important;
-  max-height: auto!important;
+  max-height: 0px!important;
+}
+
+.notion-collection-card.gallery .notion-property__title .notion-semantic-string {
+  white-space: pre-wrap!important;
+  overflow: auto!important;
+  text-overflow: unset!important;
 }

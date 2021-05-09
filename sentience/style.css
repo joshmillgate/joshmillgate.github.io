@@ -57,6 +57,7 @@ h1 {
 .notion-collection-gallery {
   display: flex!important;
   border: none!important;
+  flex-direction: column!important;
 }
 
 .notion-collection-card {
@@ -82,7 +83,8 @@ h1 {
 }
 
 .notion-collection-card__cover .medium {
-  width: 50%!important;
+  width: 100%!important;
+  flex: 4!important;
 }
 
 .notion-collection-card__cover > div {
@@ -123,6 +125,7 @@ border-radius: 0px!important;
 .notion-collection-card .notion-property__title {
   font-size: 1.375rem!important;
   margin-right: 50px!important;
+  flex: 1!important;
 }
 
 h1.notion-heading {

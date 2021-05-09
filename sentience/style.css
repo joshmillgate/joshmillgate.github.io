@@ -21,7 +21,7 @@ h1 {
 
 /* Hide page title */
 .notion-header__title {
-  display: none;
+  display: none !important;
 }
 
 /* Override default card styling */
@@ -38,7 +38,7 @@ h1 {
 
 /* Hide collection header */
 .notion-collection__header {
-  display: none;
+  display: none !important;
 }
 
 .notion-property__title__icon-wrapper {
@@ -51,7 +51,7 @@ h1 {
 
 .notion-collection-gallery {
   display: flex!important;
-  border: none;
+  border: none !important;
 }
 
 .notion-collection-card {

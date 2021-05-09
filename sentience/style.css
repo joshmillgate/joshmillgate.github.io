@@ -31,6 +31,11 @@ h1 {
   }
 }
 
+/* Hide collection header */
+.notion-collection__header {
+  display: none;
+}
+
 .notion-property__title__icon-wrapper {
   display: none!important;
 }
@@ -41,6 +46,7 @@ h1 {
 
 .notion-collection-gallery {
   display: flex!important;
+  border: none;
 }
 
 .notion-collection-card {

@@ -53,13 +53,3 @@ h1 {
 .notion-collection-card__content {
   display: none!important;
 }
-
-.notion-collection-card__cover {
-  height: auto!important;
-  overflow: auto!important;
-}
-
-.notion-collection-card__cover.medium {
-  max-height: auto!important;
-  height: auto!important;
-}

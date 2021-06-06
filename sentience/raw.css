@@ -153,12 +153,12 @@ body[style] {
 /**/
 
 ::-moz-selection { 
-  background: var(--color-primary); 
-  color: var(--color-text-dark);
+  background: var(--color-primary)!important; 
+  color: var(--color-text-dark)!important; 
 }
 ::selection { 
-  background: var(--color-primary); 
-  color: var(--color-text-dark);
+  background: var(--color-primary)!important; 
+  color: var(--color-text-dark)!important; 
 }
 
 
@@ -359,7 +359,7 @@ p a {
   padding-bottom: 2px!important;
 }
 
-h2 a {
+h2 > a {
   color: var(--color-primary)!important;
 }
 
@@ -449,7 +449,7 @@ a {
 }
 
 a:visited {
-  color: var(--color-text-light)!important;
+  color: var(--color-text-light-legible)!important;
 }
 
 

@@ -196,6 +196,11 @@ body {
   background: linear-gradient(to bottom, var(--color-bg-dark-darker), rgba(0,0,0,0) 100%)!important;
   position: fixed !important;
   position: -webkit-fixed !important;
+  -webkit-animation: fadeInDown 1s; 
+  -moz-animation: fadeInDown 1s; 
+  -ms-animation: fadeInDown 1s; 
+  -o-animation: fadeInDown 1s;
+  animation: fadeInDown 1s;
 }
 
 .notion-breadcrumb__divider {
@@ -315,8 +320,9 @@ h2, h5, h4 {
 
 h3 {
   font-size: .8em!important;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  text-transform: uppercase!important;
+  letter-spacing: 1px!important;
+  margin-bottom: 10px!;
 }
 
 
@@ -329,6 +335,13 @@ p {
 
 /* SET MAX WIDTH OF ELEMENTS WITHIN CONTAINER */
 .notion-column p, .notion-column .notion-quote {
+  max-width: 640px!important;
+}
+
+.notion-column > ul {
+  max-width: 640px!important;
+}
+.notion-column > ol {
   max-width: 640px!important;
 }
 
@@ -485,7 +498,7 @@ a:hover {
 }
 
 .notion-bulleted-list li {
-  margin: 10px 0px!important;
+  margin: 6px 0px!important;
 }
 
 .notion-list-item > span {
@@ -1127,6 +1140,11 @@ td {
     width: auto!important;
     /*width: 100%!important;*/
     text-align: right!important;
+    -webkit-animation: fadeInDown 1s; 
+    -moz-animation: fadeInDown 1s; 
+    -ms-animation: fadeInDown 1s; 
+    -o-animation: fadeInDown 1s;
+    animation: fadeInDown 1s;
 }
 
 .notion-root .notion-collection:first-child table tbody tr td {

@@ -341,7 +341,24 @@ p {
 .notion-column > ul {
   max-width: 640px!important;
 }
+
+.notion-column > h2 {
+  max-width: 640px!important;
+}
+
+.notion-column > h1 {
+  max-width: 640px!important;
+}
+
+.notion-column > h3 {
+  max-width: 640px!important;
+}
+
 .notion-column > ol {
+  max-width: 640px!important;
+}
+
+.notion-to-do__content {
   max-width: 640px!important;
 }
 
@@ -457,7 +474,7 @@ pre > code > span {
 /**/
 
 .notion-caption {
-  color: var(--color-text-light-legible);
+  color: var(--color-text-light-legible)!important;
   opacity: .5;
   font-size: 1.1em;
   margin-bottom: 30px!important;

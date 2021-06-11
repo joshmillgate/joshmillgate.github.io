@@ -475,7 +475,7 @@ pre > code > span {
 
 .notion-caption {
   color: var(--color-text-light-legible)!important;
-  opacity: .5;
+  opacity: .7;
   font-size: 1.1em;
   margin-bottom: 30px!important;
 }
@@ -1378,7 +1378,6 @@ tr:first-child span:not(:first-child) {
     margin: 0!important;
 }
 
-
 /*.notion-root .notion-collection:first-child table tbody tr td div { */
 /*  display: flex!important;*/
 /*  flex-wrap: wrap!important;*/
@@ -1432,4 +1431,25 @@ tr:nth-of-type(1) > td > div > span {
   .nav-links {
   display: none!important;
   }
+}
+
+/* PASSWORD PAGE */
+.super-password-protection__input {
+  background: var(--color-bg-dark)!important;
+  color: var(--color-primary)!important;
+  border: 1px solid var(--color-primary)!important;
+  border-radius: 0px!important;
+}
+
+.super-password-protection__input input {
+background: var(--color-bg-dark)!important;
+color: var(--color-primary)!important;
+}
+
+.super-password-protection__input-lock svg {
+  stroke: var(--color-primary)!important;
+}
+
+.super-password-protection__wrapper > div > div > img {
+  display: none!important;
 }

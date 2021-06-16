@@ -1,27 +1,6 @@
 :root {
-  /**/
-  /* CUSTOM THEME COLOUR */
-  /**/
-  /* change the colour name within variable */
-  /*(--color-COLOR_NAME)     */
-  /*                         */
-  /* Options:                */
-  /*      (--color-gray)     */
-  /*      (--color-brown)    */
-  /*      (--color-orange)   */
-  /*      (--color-yellow)   */
-  /*      (--color-green)    */
-  /*      (--color-blue)     */
-  /*      (--color-purple)   */
-  /*      (--color-pink)     */
-  /*      (--color-red)      */
-  /*      OR ENTER HEX CODE  */
-  /**/
   --color-primary: var(--color-green) !important;
   
-  /**/
-  /* PROPERTIES */
-  /**/
   --transition: all .2s ease-in-out !important;
   --font-size: 1em!important;
   --max-width: 1600px!important;
@@ -30,10 +9,6 @@
   --cover-gradient: var(--dark-cover-gradient)!important;
   --color-ui-hover-bg: var(--color-bg-dark-darker) !important;
   
-  /**/
-  /* COLOURS */
-  /**/
-
   --color-gray: #aeafaf!important;
   --color-brown: #ae9d82 !important;
   --color-orange: #ff9933!important;
@@ -53,9 +28,6 @@
   --color-text-light-legible: #cccccc!important;
   --color-text-dark: #202126!important;
   
-  /**/
-  /* NOTION TEXT COLOURS */
-  /**/
   --color-text-gray:  var(--color-gray) !important;
   --color-text-brown:  var(--color-brown) !important;
   --color-text-orange:  var(--color-orange) !important;
@@ -66,9 +38,6 @@
   --color-text-pink:  var(--color-pink) !important;
   --color-text-red:  var(--color-red) !important;
 
-  /**/
-  /* NOTION BG COLOURS */
-  /**/
   --color-bg-default: #9ba0b0 !important;
   --color-bg-gray: var(--color-gray)!important;
   --color-bg-brown: var(--color-brown) !important;
@@ -80,10 +49,6 @@
   --color-bg-pink: var(--color-pink) !important;
   --color-bg-red: var(--color-red) !important;
 
-    
-  /**/
-  /* NOTION PILL COLOURS */
-  /**/
   --color-pill-default: #9ba0b0 !important;
   --color-pill-gray: var(--color-gray)!important;
   --color-pill-brown: var(--color-brown) !important;

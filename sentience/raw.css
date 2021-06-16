@@ -193,7 +193,7 @@ body {
 .notion-navbar {
   height: auto!important;
   padding: 20px!important;
-  background: linear-gradient(to bottom, var(--color-bg-dark-darker), rgba(31,31,36,0) 100%)!important;
+  /* background: linear-gradient(to bottom, var(--color-bg-dark-darker), rgba(31,31,36,0) 100%)!important; */
   position: fixed !important;
   position: -webkit-fixed !important;
   -webkit-animation: fadeInDown 1s; 

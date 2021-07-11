@@ -1,3 +1,5 @@
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script>
 if ( !$("#nav-toggle").length ) {
     $('.notion-navbar').append('<button id="nav-toggle" class="js-menu menu" type="button"><span class="bar"></span></button>');
 }
@@ -17,3 +19,4 @@ $('.js-menu').on('click', function() {
 	}
 	isActive = !isActive;
 });
+</script>

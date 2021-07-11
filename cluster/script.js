@@ -33,10 +33,10 @@ $(document).ready(function () {
   });
 });
 
-$('.notion-root > .notion-column-list > .notion-column:nth-child(1)').bind('clickoutside', function (event) {
-   if ($('body').hasClass('menu-open')) {
-      $(this).removeClass('active');
-      $('body').removeClass('menu-open');
-      $('.notion-root > .notion-column-list > .notion-column:nth-child(1)').removeClass('test-nav');
-   }
-});
+// $('.notion-root > .notion-column-list > .notion-column:nth-child(1)').bind('clickoutside', function (event) {
+//    if ($('body').hasClass('menu-open')) {
+//       $(this).removeClass('active');
+//       $('body').removeClass('menu-open');
+//       $('.notion-root > .notion-column-list > .notion-column:nth-child(1)').removeClass('test-nav');
+//    }
+// });

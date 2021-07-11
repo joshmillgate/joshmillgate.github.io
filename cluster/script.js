@@ -1,11 +1,19 @@
+if ( !$("#nav-toggle").length ) {
+    $('.notion-navbar').append('<button id="nav-toggle" class="js-menu menu" type="button"><span class="bar"></span></button>');
+}
+    
+$('#nav-toggle').click(function(){
+    $('.notion-root > .notion-column-list > .notion-column:nth-child(1)').toggleClass('test-nav')
+});
 
-    $('.nav-toggle').click(function(){
-        $(this).toggleClass('nav-toggled');
-        $('.nav-links').toggleClass('nav-links-show');
-    });
-    $(document).keydown(function (e) {
-        if (e.key === 'Escape') {
-            $('.nav-toggle').removeClass('nav-toggled');
-            $('.nav-links').removeClass('nav-links-show');
-        }
-    });
+var isActive = false;
+$('.js-menu').on('click', function() {
+	if (isActive) {
+		$(this).removeClass('active');
+		$('body').removeClass('menu-open');
+	} else {
+		$(this).addClass('active');
+		$('body').addClass('menu-open');
+	}
+	isActive = !isActive;
+});

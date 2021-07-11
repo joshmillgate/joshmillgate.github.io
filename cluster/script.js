@@ -1,4 +1,3 @@
-<script>
 $(document).ready(function () {
    $('.notion-navbar').append('<button id="nav-toggle" class="js-menu menu" type="button"><span class="bar"></span></button>');
   $('#nav-toggle').click(function(){
@@ -17,4 +16,3 @@ $(document).ready(function () {
   	isActive = !isActive;
   });
 });
-</script>

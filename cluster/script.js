@@ -11,27 +11,27 @@
 
 $(document).ready(function () {
    if ($('#nav-toggle').length === 0) {
-//       $('.notion-navbar').append('<button id="nav-toggle" class="js-menu menu" type="button"><span class="bar"></span></button>');
-      $('.notion-navbar').append('<button id="nav-toggle" class="menu-button" type="button"><img src="https://super.so/icon/dark/menu.svg"/></button>');
+       $('.notion-navbar').append('<button id="nav-toggle" class="js-menu menu" type="button"><span class="bar"></span></button>');
+      //$('.notion-navbar').append('<button id="nav-toggle" class="menu-button" type="button"><img src="https://super.so/icon/dark/menu.svg"/></button>');
    };
    
    $('#nav-toggle').click(function(){
       $('.notion-root > .notion-column-list > .notion-column:nth-child(1)').toggleClass('test-nav')
   });
 
-//   var isActive = false;
-//   $('.js-menu').on('click', function() {
-//   	if (isActive) {
-//   		$(this).removeClass('active');
-//   		$('body').removeClass('menu-open');
-//       $('.notion-root > .notion-column-list > .notion-column:nth-child(1)').removeClass('test-nav');
-//   	} else {
-//   		$(this).addClass('active');
-//   		$('body').addClass('menu-open');
-//       $('.notion-root > .notion-column-list > .notion-column:nth-child(1)').addClass('test-nav');
-//   	}
-//   	isActive = !isActive;
-//   });
+  var isActive = false;
+  $('.js-menu').on('click', function() {
+  	if (isActive) {
+  		$(this).removeClass('active');
+  		$('body').removeClass('menu-open');
+      $('.notion-root > .notion-column-list > .notion-column:nth-child(1)').removeClass('test-nav');
+  	} else {
+  		$(this).addClass('active');
+  		$('body').addClass('menu-open');
+      $('.notion-root > .notion-column-list > .notion-column:nth-child(1)').addClass('test-nav');
+  	}
+  	isActive = !isActive;
+  });
 });
 
 // $('.notion-root > .notion-column-list > .notion-column:nth-child(1)').bind('clickoutside', function (event) {

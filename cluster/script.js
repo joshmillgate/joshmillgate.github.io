@@ -1,43 +1,42 @@
-
-/*
- * jQuery outside events - v1.1 - 3/16/2010
- * http://benalman.com/projects/jquery-outside-events-plugin/
- * 
- * Copyright (c) 2010 "Cowboy" Ben Alman
- * Dual licensed under the MIT and GPL licenses.
- * http://benalman.com/about/license/
- */
-(function($,c,b){$.map("click dblclick mousemove mousedown mouseup mouseover mouseout change select submit keydown keypress keyup".split(" "),function(d){a(d)});a("focusin","focus"+b);a("focusout","blur"+b);$.addOutsideEvent=a;function a(g,e){e=e||g+b;var d=$(),h=g+"."+e+"-special-event";$.event.special[e]={setup:function(){d=d.add(this);if(d.length===1){$(c).bind(h,f)}},teardown:function(){d=d.not(this);if(d.length===0){$(c).unbind(h)}},add:function(i){var j=i.handler;i.handler=function(l,k){l.target=k;j.apply(this,arguments)}}};function f(i){$(d).each(function(){var j=$(this);if(this!==i.target&&!j.has(i.target).length){j.triggerHandler(e,[i.target])}})}}})(jQuery,document,"outside");
-
 $(document).ready(function () {
-   if ($('#nav-toggle').length === 0) {
-       $('.notion-navbar').append('<button id="nav-toggle" class="js-menu menu" type="button"><span class="bar"></span></button>');
-      //$('.notion-navbar').append('<button id="nav-toggle" class="menu-button" type="button"><img src="https://super.so/icon/dark/menu.svg"/></button>');
+  // Append nav button
+  if ($('#nav-toggle').length === 0) {
+    $('.notion-navbar').append('<div id="nav-toggle" class="js-menu menu"><span class="bar"></span></div>');
    };
    
-   $('#nav-toggle').click(function(){
-      $('.notion-root > .notion-column-list > .notion-column:nth-child(1)').toggleClass('test-nav')
+  // Init close nav function
+  var closeNav = () => {
+    // Nav icon animation
+    $('.js-menu').removeClass('active');
+    $('body').removeClass('menu-open');
+    // Hide nav
+    $('.notion-root > .notion-column-list > .notion-column:nth-child(1)').removeClass('show-nav');
+    // Reset click
+    $('.js-menu').click();
+  };
+
+  // Click nav button toggle nav visibility
+  $(document).on('click', '#nav-toggle', function(){
+      $('.notion-root > .notion-column-list > .notion-column:nth-child(1)').toggleClass('show-nav')
   });
 
+  // Nav menu animation
   var isActive = false;
-  $('.js-menu').on('click', function() {
+  $(document).on('click', '.js-menu', function() {
   	if (isActive) {
   		$(this).removeClass('active');
   		$('body').removeClass('menu-open');
-      $('.notion-root > .notion-column-list > .notion-column:nth-child(1)').removeClass('test-nav');
   	} else {
   		$(this).addClass('active');
   		$('body').addClass('menu-open');
-      $('.notion-root > .notion-column-list > .notion-column:nth-child(1)').addClass('test-nav');
   	}
   	isActive = !isActive;
   });
-});
 
-// $('.notion-root > .notion-column-list > .notion-column:nth-child(1)').bind('clickoutside', function (event) {
-//    if ($('body').hasClass('menu-open')) {
-//       $(this).removeClass('active');
-//       $('body').removeClass('menu-open');
-//       $('.notion-root > .notion-column-list > .notion-column:nth-child(1)').removeClass('test-nav');
-//    }
-// });
+  // When click on any link when menu is open close menu
+   $(document).on('click', 'a', function() {
+     if(isActive) {
+        closeNav()
+     }
+  });
+});

@@ -64,7 +64,6 @@ $(document).ready(function () {
   })
 
   $(document).on('click', '#block-f21fe517487f4018ab70eff023edff28', function() {
-    console.log('hi')
    document.documentElement.setAttribute("style", "--color-green: #e33c4d!important");
   })
 

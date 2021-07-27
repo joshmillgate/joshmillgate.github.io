@@ -57,4 +57,18 @@ $(document).ready(function () {
         closeNav()
      }
   });
+  
+  // Change primary colours
+  $(document).on('click', '#block-96fa75b6271e4aba86beebae5e90fe1c', function() {
+   document.documentElement.setAttribute("style", "--color-green: #3399ff!important");
+  })
+
+  $(document).on('click', '#block-f21fe517487f4018ab70eff023edff28', function() {
+    console.log('hi')
+   document.documentElement.setAttribute("style", "--color-green: #e33c4d!important");
+  })
+
+  $(document).on('click', '#block-c1ee57b5f77f4892b0fbff033d1b8fe4', function() {
+   document.documentElement.setAttribute("style", "--color-green: #7d47cf!important");
+  })
 });

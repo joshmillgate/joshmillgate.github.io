@@ -1,1 +1,71 @@
+@font-face {
+    font-family: 'Cambon';
+    src: url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-Regular.eot');
+    src: url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-Regular.woff2') format('woff2'),
+        url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-Regular.woff') format('woff'),
+        url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-Regular.ttf') format('truetype'),
+        url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-Regular.svg#Cambon-Regular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'Cambon';
+    src: url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-Italic.eot');
+    src: url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-Italic.eot?#iefix') format('embedded-opentype'),
+        url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-Italic.woff2') format('woff2'),
+        url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-Italic.woff') format('woff'),
+        url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-Italic.ttf') format('truetype'),
+        url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-Italic.svg#Cambon-Italic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cambon';
+    src: url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-Light.eot');
+    src: url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-Light.eot?#iefix') format('embedded-opentype'),
+        url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-Light.woff2') format('woff2'),
+        url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-Light.woff') format('woff'),
+        url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-Light.ttf') format('truetype'),
+        url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-Light.svg#Cambon-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cambon';
+    src: url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-LightItalic.eot');
+    src: url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-LightItalic.woff2') format('woff2'),
+        url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-LightItalic.woff') format('woff'),
+        url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-LightItalic.ttf') format('truetype'),
+        url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-LightItalic.svg#Cambon-LightItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cambon';
+    src: url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-Medium.eot');
+    src: url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-Medium.eot?#iefix') format('embedded-opentype'),
+        url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-Medium.woff2') format('woff2'),
+        url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-Medium.woff') format('woff'),
+        url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-Medium.ttf') format('truetype'),
+        url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-Medium.svg#Cambon-Medium') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cambon';
+    src: url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-MediumItalic.eot');
+    src: url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-MediumItalic.woff2') format('woff2'),
+        url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-MediumItalic.woff') format('woff'),
+        url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-MediumItalic.ttf') format('truetype'),
+        url('https://github.com/joshmillgate/joshmillgate.github.io/raw/main/purpose/fonts/Cambon-MediumItalic.svg#Cambon-MediumItalic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+}

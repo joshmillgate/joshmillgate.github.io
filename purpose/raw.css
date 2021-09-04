@@ -646,6 +646,7 @@ font-size: 52px!important;
 font-weight: 100!important;
 line-height: 52px!important;
 z-index: 9999!important;
+white-space: pre-wrap!important;
 }
 
 /* List Post Heading */
@@ -658,16 +659,19 @@ font-family: 'cambon'!important;
 font-size: 32px!important;
 font-weight: 300!important;
 line-height: 36px!important;
+white-space: pre-wrap!important;
 }
 
 /* List Post Date */
 .notion-collection-gallery.medium .notion-property__date {
 margin-top: 20px!important;
+white-space: pre-wrap!important;
 }
 
 .notion-collection-gallery.medium .notion-property.notion-property__title span {
 font-weight: 100!important;
 line-height: 40px!important;
+white-space: pre-wrap!important;
 }
 
 .notion-collection-gallery {
@@ -677,11 +681,11 @@ grid-gap: 80px!important;
 }
 
 .notion-collection-card.gallery .notion-property__title .notion-semantic-string {
-  white-space: pre-wrap;
+  white-space: pre-wrap!important;
 }
 
 .gallery .notion-collection-card__property .notion-semantic-string {
-  white-space: pre-wrap;
+  white-space: pre-wrap!important;
   font-family: 'Inter'!important;
   font-size: 16px!important;
 }

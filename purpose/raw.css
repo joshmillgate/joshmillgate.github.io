@@ -153,6 +153,10 @@ margin: 0 auto!important;
   height: 50px;
 }
 
+.super-navbar__menu-wrapper {
+  width: 100%!important;
+}
+
 
 .super-navbar {
 -webkit-backdrop-filter: blur(15px);

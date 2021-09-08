@@ -96,10 +96,10 @@ body {
     fill: var(--color-primary) !important;
 }
 .notion-search__input {
-    background: #fff !important;
+    background: var(--color-bg-default) !important;
 }
 .notion-search__box {
-    background: #fff !important;
+    background: var(--color-bg-default) !important;
 }
 .notion-search__wrapper {
     background: rgba(0, 0, 0, 0.5) !important;

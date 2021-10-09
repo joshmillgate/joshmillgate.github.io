@@ -24,6 +24,10 @@
 
 /* Layout */
 
+#__next {
+    height: 100vh!important;
+}
+
 body {
     background: var(--body-background) !important;
     background-position: center!important;
@@ -32,7 +36,6 @@ body {
     -moz-background-size: cover!important;
     -o-background-size: cover!important;
     background-size: cover!important;
-    height: 100vh!important;
 }
 
 .notion-navbar,

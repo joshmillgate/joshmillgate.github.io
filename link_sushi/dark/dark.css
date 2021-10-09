@@ -14,6 +14,6 @@
     --link-hover-translate: translate(0, -2px)!important;
     --link-backdrop-filter: 0!important;
     --social-icons-filter: grayscale(100%) brightness(0%) invert(100%) contrast(100%)!important;
-    --header-color: #ffffff;
+    --header-color: #ffffff!important;
     --header-shadow: 0!important;
 }

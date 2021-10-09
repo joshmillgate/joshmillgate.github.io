@@ -3,7 +3,6 @@
 :root {
     --color-bg-default: #ffffff!important;
     --color-text-default: #212121!important;
-    --primary-color: #eda10a!important;
     --max-width: 680px!important;
     --body-background: var(--color-bg-default)!important;
     --link-padding: 20px!important;
@@ -13,13 +12,13 @@
     --link-color: #212121!important;
     --link-shadow: 0!important;
     --link-transition: all 0.2s ease-in-out!important;
-    --collection-card-cover-size-small: 26px;
+    --collection-card-cover-size-small: 26px!important;
     --social-icons-filter: grayscale(100%) brightness(0%)invert(100%)!important;
     --link-hover-shadow: 0!important;
     --link-hover-translate: 0!important;
     --link-backdrop-filter: blur(8.9px)!important;
     --social-icons-filter: grayscale(100%) brightness(0%) contrast(50%)!important;
-    --link-hover-background: #f2f2f2;
+    --link-hover-background: #f2f2f2!important;
 }
 
 

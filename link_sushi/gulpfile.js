@@ -13,31 +13,33 @@ function getFolders(dir) {
 }
 
 const build = (done) => {
-    var folders = getFolders('./');
+    console.log('Building Themes...')
+    var folders = getFolders('./themes');
     if (folders.length === 0) return done();
     var tasks = folders.map(function(folder) {
         return gulp.src([
-                './' + folder + '/*.css',
-                './base.css'
-            ], { base: './' })
+                './base.css',
+                './themes/' + folder + '/*.css'
+            ], { base: './themes' })
             // concat into foldername.js
             .pipe(concat(folder + '.min.css'))
             // minify the CSS
             .pipe(minifyCss())
             // write to output
-            .pipe(gulp.dest('./' + folder))
+            .pipe(gulp.dest('./themes/' + folder))
     });
-    // Created by Josh Millgate
     done();
+    console.log('Themes sucessfully built ⚡️')
+    console.log('Created by @joshmillgate')
 };
 
 const watch = () => {
-    gulp.watch('./', build);
+    gulp.watch('./themes', build);
 }
 
 const clean = () => {
     console.log('Deleting all "min.css" files')
-    return del(['./*/*.min.css']);
+    return del(['themes/*/*.min.css']);
 }
 
 exports.build = build;

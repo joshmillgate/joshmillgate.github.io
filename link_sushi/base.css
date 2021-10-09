@@ -209,22 +209,22 @@ body {
 
 @media all and (max-width: 546px) {
     .notion-header__title {
-        font-size: 42px!important;
+        font-size: 34px!important;
     }
     .super-content {
         padding-left: 20px!important;
         padding-right: 20px!important;
     }
     .notion-header__cover.no-cover {
-        max-height: 60px!important;
-        height: 60px!important;
+        max-height: 40px!important;
+        height: 40px!important;
     }
     .notion-header__icon-wrapper {
-        font-size: 64px!important;
-        line-height: 64px!important;
+        font-size: 52px!important;
+        line-height: 52px!important;
     }
     .notion-header__icon-wrapper.no-cover.has-icon {
-        top: -100px!important;
+        top: -80px!important;
     }
     .notion-collection-list {
         padding: 15px!important;

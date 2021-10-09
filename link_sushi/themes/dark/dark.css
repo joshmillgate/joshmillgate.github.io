@@ -12,6 +12,7 @@
     --link-shadow: 1px 2px 1px rgba(255, 255, 255, 0.05)!important;
     --link-hover-shadow: 0 5px 10px rgba(32, 32, 32, .5)!important;
     --link-hover-translate: translate(0, -2px)!important;
+    --link-hover-background: rgba(0, 0, 0, 0.1)!important;
     --link-backdrop-filter: 0!important;
     --social-icons-filter: grayscale(100%) brightness(0%) invert(100%) contrast(100%)!important;
     --header-color: #ffffff!important;

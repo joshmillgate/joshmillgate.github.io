@@ -16,4 +16,5 @@
     --link-backdrop-filter: blur(8.9px)!important;
     --social-icons-filter: grayscale(100%) brightness(0%) invert(100%) contrast(100%)!important;
     --link-hover-background: rgba(255, 255, 255, 0.15)!important;
+    --color-text-default-light: #ffffff!important;
 }

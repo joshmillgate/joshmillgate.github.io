@@ -17,4 +17,5 @@
     --social-icons-filter: grayscale(100%) brightness(0%) invert(100%) contrast(100%)!important;
     --header-color: #ffffff!important;
     --header-shadow: 0!important;
+    --color-text-default-light: #ffffff!important;
 }

@@ -57,6 +57,7 @@ body {
 }
 
 .notion-header__title {
+    text-align: center!important;
     font-size: 46px!important;
     color: var(--header-color)!important;
     text-shadow: var(--header-shadow)!important;

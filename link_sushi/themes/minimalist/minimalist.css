@@ -15,3 +15,12 @@
     --link-backdrop-filter: 0!important;
     --social-icons-filter: grayscale(100%) brightness(0%) invert(100%) contrast(100%)!important;
 }
+
+.notion-header__icon-wrapper,
+.notion-property__title__icon-wrapper {
+    display: none!important;
+}
+
+.notion-header__content.no-cover.has-icon .notion-header__title-wrapper {
+    margin-top: 0px!important;
+}

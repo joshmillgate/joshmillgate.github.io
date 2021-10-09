@@ -226,6 +226,13 @@ body {
     .notion-header__icon-wrapper.no-cover.has-icon {
         top: -80px!important;
     }
+    .notion-header__icon-wrapper.no-cover.has-icon-image {
+        top: -140px!important;
+    }
+    .notion-header__icon-wrapper.has-icon-image {
+        width: 100px!important;
+        height: 100px!important;
+    }
     .notion-collection-list {
         padding: 15px!important;
     }

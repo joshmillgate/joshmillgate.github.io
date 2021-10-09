@@ -24,8 +24,9 @@
 
 /* Layout */
 
+#__next,
 html {
-    min-height: -webkit-fill-available!important;
+    min-height: 100%!important;
 }
 
 body {
@@ -37,8 +38,7 @@ body {
     -o-background-size: cover!important;
     background-size: cover!important;
     background-attachment: fixed!important;
-    min-height: 100vh!important;
-    min-height: -webkit-fill-available!important;
+    height: 100%!important;
 }
 
 .notion-navbar,

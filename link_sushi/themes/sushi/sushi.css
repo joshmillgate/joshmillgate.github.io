@@ -2,7 +2,7 @@
 
 :root {
     --body-background: url('https://images.unsplash.com/photo-1620202119243-212a883c5627?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2767&q=80') no-repeat center center !important;
-    --color-bg-default: #e0e0e0!important;
+    --color-bg-default: #777dff!important;
     --color-text-default: #f2f2f2!important;
     --max-width: 650px!important;
     --link-padding: 20px!important;

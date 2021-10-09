@@ -1,7 +1,7 @@
 /* Default Values */
 
 :root {
-    --color-bg-default: #ffffff!important;
+    --color-bg-default: #2b2b2b!important;
     --color-text-default: #212121!important;
     --max-width: 680px!important;
     --body-background: var(--color-bg-default)!important;

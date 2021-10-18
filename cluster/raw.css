@@ -596,6 +596,7 @@ th {
     border-right: 0 !important;
 }
 .copy-to-clipboard-button {
+    z-index: 9999!important;
     border: 0 !important;
     box-shadow: none !important;
     background: 0 0 !important;

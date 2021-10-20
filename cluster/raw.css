@@ -880,3 +880,16 @@ div.code-toolbar > .toolbar > .toolbar-item > span:hover {
         margin-bottom: 10px !important;
     }
 }
+
+.notion-search__clear svg {
+  display: none!important;
+}
+
+.notion-search__clear:before {
+  content: 'clear'!important;
+  text-transform: uppercase!important;
+  font-size: 12px!important;
+  font-weight: 500!important;
+  padding: 5px!important;
+  color: #878683!important;
+}

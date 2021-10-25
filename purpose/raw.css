@@ -720,7 +720,7 @@ opacity: .4!important;
 }
 
 .notion-collection-card.gallery:hover .notion-collection-card__property:last-of-type {
-background: #fdb38c!important;
+background: var(--color-primary)!important;
 border: 1px solid #fdb38c!important;
 }
 
@@ -736,7 +736,7 @@ font-family: 'Cambon';
 }
 
 .notion-collection-card.gallery:hover .notion-collection-card__property:last-of-type {
-background: #fdb38c!important;
+background: var(--color-primary)!important;
 border: 1px solid #fdb38c!important;
 }
 

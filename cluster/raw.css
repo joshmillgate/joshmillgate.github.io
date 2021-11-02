@@ -893,3 +893,9 @@ div.code-toolbar > .toolbar > .toolbar-item > span:hover {
   padding: 5px!important;
   color: #878683!important;
 }
+
+.notion-collection-card__cover.small.contain span {
+  display: flex!important;
+  justify-content: center!important;
+  align-items: center!important;
+}

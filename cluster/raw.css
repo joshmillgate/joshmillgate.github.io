@@ -528,6 +528,7 @@ p.notion-callout__content > span > span strong {
     position: -webkit-sticky !important;
     top: 70px !important;
     padding-right: 30px !important;
+    overflow: auto!important;
 }
 .notion-root > .notion-column-list > .notion-column:nth-child(3) strong {
     text-transform: uppercase !important;

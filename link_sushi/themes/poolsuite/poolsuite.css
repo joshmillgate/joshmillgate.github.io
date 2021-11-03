@@ -1,8 +1,8 @@
 /* Poolside */
 
 @font-face {
-    font-family: 'Chikarego';
-    src: url('https://joshmillgate.github.io/link_sushi/themes/poolside/chikarego.woff2') format('woff2');
+    font-family: 'Chicago';
+    src: url('https://joshmillgate.github.io/link_sushi/themes/poolside/chicago.woff2') format('woff2');
     font-weight: 100;
     font-style: normal;
 }
@@ -39,3 +39,5 @@
     --link-hover-background: rgba(255, 255, 255, 0.15)!important;
     --color-text-default-light: #ffffff!important;
 }
+
+.notion-collection-list__item {}

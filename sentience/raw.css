@@ -1456,3 +1456,7 @@ color: var(--color-primary)!important;
 .super-password-protection__wrapper > div > div > img {
   display: none!important;
 }
+
+.notion-collection-card__cover.large, .notion-collection-card__cover.large>span, .notion-collection-card__cover.large img, .notion-collection-card__cover.medium, .notion-collection-card__cover.medium>span, .notion-collection-card__cover.medium img {
+max-height: 100%!important;	
+}

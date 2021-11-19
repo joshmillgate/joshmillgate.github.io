@@ -734,7 +734,7 @@ th {
     min-width: 32px !important;
     min-height: 32px !important;
 }
-.notion-collection-card .gallery {
+.notion-collection-card.gallery {
   padding-bottom: 20px!important;
 }
 #block-96fa75b6271e4aba86beebae5e90fe1c,

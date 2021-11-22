@@ -61,6 +61,7 @@ html {
     position: relative!important;
     width: 11px!important;
     height: 11px!important;
+    max-height: 11px!important;
     cursor: url('https://poolsuite.net/img/click.a54d5106.svg') 3 0, auto!important;
 }
 

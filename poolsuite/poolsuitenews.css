@@ -46,7 +46,7 @@ html {
 
 .notion-header {
     margin: 0px!important;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #000!important;
     height: 21px!important;
     padding: 5px!important;
     text-align: right!important;
@@ -57,21 +57,21 @@ html {
 }
 
 .notion-header__cover.no-cover {
-    border: 1px solid #000;
-    position: relative;
-    width: 11px;
-    height: 11px;
+    border: 1px solid #000!important;
+    position: relative!important;
+    width: 11px!important;
+    height: 11px!important;
     cursor: url('https://poolsuite.net/img/click.a54d5106.svg') 3 0, auto!important;
 }
 
 .notion-header__cover.no-cover:before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: " ";
-    width: 9px;
-    height: 9px;
-    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAGCAYAAAAL+1RLAAAAMUlEQVQImV2NwQ0AIBDCuv8GTFsfJ2p8kBAKAUAAFR2LmoJhpi5/8Da6uI0D1PRkKwvsoDssfqmQWwAAAABJRU5ErkJggg==) no-repeat 50%;
+    position: absolute!important;
+    top: 0!important;
+    left: 0!important;
+    content: " "!important;
+    width: 9px!important;
+    height: 9px!important;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAGCAYAAAAL+1RLAAAAMUlEQVQImV2NwQ0AIBDCuv8GTFsfJ2p8kBAKAUAAFR2LmoJhpi5/8Da6uI0D1PRkKwvsoDssfqmQWwAAAABJRU5ErkJggg==) no-repeat 50%!important;
 }
 
 .notion-header__content.max-width {
@@ -131,24 +131,24 @@ body {
 /* 3 */
 
 #page-index {
-    border: 1px solid #000;
-    -webkit-box-shadow: inset -1px -1px 0 0 var(--tertiary), inset 1px 1px 0 0 #fff, 5px 5px 0 rgba(0, 0, 0, .2);
-    box-shadow: inset -1px -1px 0 0 var(--tertiary), inset 1px 1px 0 0 #fff, 5px 5px 0 rgba(0, 0, 0, .2);
-    background: var(--primary);
-    display: flex;
-    flex-direction: column;
+    border: 1px solid #000!important;
+    -webkit-box-shadow: inset -1px -1px 0 0 var(--tertiary), inset 1px 1px 0 0 #fff, 5px 5px 0 rgba(0, 0, 0, .2)!important;
+    box-shadow: inset -1px -1px 0 0 var(--tertiary), inset 1px 1px 0 0 #fff, 5px 5px 0 rgba(0, 0, 0, .2)!important;
+    background: var(--primary)!important;
+    display: flex!important;
+    flex-direction: column!important;
     z-index: 1!important;
-    pointer-events: all;
-    -webkit-transition: background .01s ease-in-out;
-    transition: background .01s ease-in-out;
+    pointer-events: all!important;
+    -webkit-transition: background .01s ease-in-out!important;
+    transition: background .01s ease-in-out!important;
 }
 
 
 /* 4 */
 
 #page-index>div:nth-child(2) {
-    -ms-touch-action: pan-y;
-    touch-action: pan-y;
+    -ms-touch-action: pan-y!important;
+    touch-action: pan-y!important;
 }
 
 
@@ -199,13 +199,13 @@ body {
     height: 40px!important;
     right: 0!important;
     background: var(--gray) url('https://poolsuite.net/img/grabber.a0d90888.svg') no-repeat 50%!important;
-    image-rendering: -webkit-optimize-contrast;
-    image-rendering: pixelated;
+    image-rendering: -webkit-optimize-contrast!important;
+    image-rendering: pixelated!important;
     border-radius: 0!important;
     opacity: 1;
-    border-top: 1px solid #000;
-    border-left: 1px solid #000;
-    border-bottom: 1px solid #000;
+    border-top: 1px solid #000!important;
+    border-left: 1px solid #000!important;
+    border-bottom: 1px solid #000!important;
     cursor: url('https://poolsuite.net/img/click.a54d5106.svg') 3 0, auto!important;
 }
 
@@ -213,7 +213,7 @@ body {
     width: 16px;
     background: var(--gray) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQImWNgYGCQ+v//PwOcRuEwMEgxEFQBAFOdGLmlrGygAAAAAElFTkSuQmCC);
     opacity: 1!important;
-    border-left: 1px solid #000;
+    border-left: 1px solid #000!important;
     padding: 14px 0;
     margin-top: -1px!important;
     margin-bottom: -1px!important;
@@ -274,11 +274,11 @@ blockquote .notion-semantic-string {
 }
 
 .spacer i {
-    display: block;
-    width: 100%;
-    height: 2px;
-    background: #000;
-    border-bottom: 1px solid #fff;
+    display: block!important;
+    width: 100%!important;
+    height: 2px!important;
+    background: #000!important;
+    border-bottom: 1px solid #fff!important;
 }
 
 .spacer i+i {
@@ -295,7 +295,7 @@ blockquote .notion-semantic-string {
 .notion-callout {
     border: 1px solid #000!important;
     border-radius: 0px!important;
-    background: #f4f4f4;
+    background: #f4f4f4!important;
 }
 
 @media all and (max-width: 764px) {

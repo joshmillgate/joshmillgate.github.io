@@ -572,8 +572,10 @@ p.notion-callout__content > span > span strong {
     align-items: center !important;
     justify-content: center !important;
     font-size: 14px !important;
-    margin-bottom: 10px !important;
     opacity: 0.6 !important;
+}
+.notion-collection-card__content  {
+  padding-bottom: 0px!important;
 }
 .notion-collection-table__head-cell.title {
     text-align: left !important;
@@ -731,6 +733,9 @@ th {
     height: 32px !important;
     min-width: 32px !important;
     min-height: 32px !important;
+}
+.notion-collection-card.gallery {
+  padding-bottom: 20px!important;
 }
 #block-96fa75b6271e4aba86beebae5e90fe1c,
 #block-c1ee57b5f77f4892b0fbff033d1b8fe4,

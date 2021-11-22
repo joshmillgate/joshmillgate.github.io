@@ -1,0 +1,315 @@
+@font-face {
+    font-family: 'PixelArial';
+    src: url('https://joshmillgate.github.io/link_sushi/poolsuite/PixelArial.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chicago';
+    src: url('https://joshmillgate.github.io/link_sushi/poolsuite/chicago.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+}
+
+:root {
+    --primary: #f9efe4;
+    --secondary: #f9efe4;
+    --tertiary: #c2b9b1;
+    --gray: #f4f4f4;
+    --body-background: url('https://images.ctfassets.net/hsst7dmi6ghe/1wUHpIjmtkPxrkxCJZ4RKa/5ae1c34cedc9e9da9ee1aea40ab530fc/1.png') repeat center center !important;
+}
+
+html {
+    font-smooth: never!important;
+    -webkit-font-smoothing: none!important;
+    -moz-osx-font-smoothing: none!important;
+    -webkit-font-smoothing: antialiased!important;
+    image-rendering: pixelated!important;
+}
+
+
+/*#page-index > .super-content > article */
+
+
+/*.notion-header, .notion-navbar {*/
+
+
+/*  display: none!important;*/
+
+
+/*}*/
+
+.notion-navbar {
+    display: none!important;
+}
+
+.notion-header {
+    margin: 0px!important;
+    border-bottom: 1px solid #000;
+    height: 21px!important;
+    padding: 5px!important;
+    text-align: right!important;
+    display: flex!important;
+    justify-content: space-between!important;
+    align-items: center!important;
+    background: #f4f4f4!important;
+}
+
+.notion-header__cover.no-cover {
+    border: 1px solid #000;
+    position: relative;
+    width: 11px;
+    height: 11px;
+    cursor: url('https://poolsuite.net/img/click.a54d5106.svg') 3 0, auto!important;
+}
+
+.notion-header__cover.no-cover:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: " ";
+    width: 9px;
+    height: 9px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAGCAYAAAAL+1RLAAAAMUlEQVQImV2NwQ0AIBDCuv8GTFsfJ2p8kBAKAUAAFR2LmoJhpi5/8Da6uI0D1PRkKwvsoDssfqmQWwAAAABJRU5ErkJggg==) no-repeat 50%;
+}
+
+.notion-header__content.max-width {
+    margin: 0px!important;
+    max-width: none!important;
+}
+
+.notion-header__content {
+    padding: 0px!important;
+}
+
+.notion-header__content .notion-header__title-wrapper {
+    margin: 0!important;
+    padding: 0px!important;
+}
+
+.notion-header__title {
+    font-family: 'Chicago'!important;
+    font-weight: 400!important;
+    font-size: 16px!important;
+    min-height: 0px!important;
+    padding: 0px!important;
+    margin: 0px!important;
+    line-height: 0.6!important;
+    margin-left: 5px!important;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-smooth: never!important;
+    -webkit-font-smoothing: none!important;
+    -moz-osx-font-smoothing: none!important;
+    -webkit-font-smoothing: antialiased!important;
+    image-rendering: pixelated!important;
+}
+
+
+/* 1 */
+
+body {
+    background: var(--body-background) !important;
+    background-position: center!important;
+    -webkit-background-size: auto!important;
+    -moz-background-size: auto!important;
+    -o-background-size: auto!important;
+    background-size: auto!important;
+    background-repeat: repeat!important;
+    background-attachment: fixed!important;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    height: 100vh!important;
+    font-family: 'PixelArial'!important;
+}
+
+
+/* 3 */
+
+#page-index {
+    border: 1px solid #000;
+    -webkit-box-shadow: inset -1px -1px 0 0 var(--tertiary), inset 1px 1px 0 0 #fff, 5px 5px 0 rgba(0, 0, 0, .2);
+    box-shadow: inset -1px -1px 0 0 var(--tertiary), inset 1px 1px 0 0 #fff, 5px 5px 0 rgba(0, 0, 0, .2);
+    background: var(--primary);
+    display: flex;
+    flex-direction: column;
+    z-index: 1!important;
+    pointer-events: all;
+    -webkit-transition: background .01s ease-in-out;
+    transition: background .01s ease-in-out;
+}
+
+
+/* 4 */
+
+#page-index>div:nth-child(2) {
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+}
+
+
+/* 5 */
+
+.super-content {
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    padding: 0px!important;
+    background: url('https://poolsuite.net/img/marble.79b4d00c.gif')!important;
+    position: relative!important;
+}
+
+
+/* 6 */
+
+.notion-root {
+    width: 700px!important;
+    height: 490px!important;
+    padding: 10px!important;
+    overflow: auto!important;
+    background: #ffffff!important;
+    margin: 10px 10px 20px 10px!important;
+    border: 1px solid #000!important;
+}
+
+.super-content::after {
+    height: 12px!important;
+    right: 17px!important;
+    width: 100%!important;
+    left: 0!important;
+    bottom: 0!important;
+    position: absolute!important;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARYAAAAKAQMAAABL4ONYAAAABlBMVEUAAAAAAAClZ7nPAAAAAnRSTlMA32D/An0AAAC0SURBVBjTXcYxboRADEDR75ELK5VBOYBBHMSsiLR7Ky+aghLlxGln86qHtNYoFsPOpqqCDufhOM8I9xljzrgzI7aPO1vBZbtwn15i4n42ieGLLsDKGwulxcUhDU/7uO6Ouc7Zl+3S2Dxse9s+/PFyS6onCgQiYoX9ewKORE3+bKta0HbWGH/rYeyTN+9JVca5hi7Wh5cIhYITX7PZhEGQ8/DvzT3wY+0vqoKucf3YrzBcSLE/lKQuSiByDCcAAAAASUVORK5CYII=)!important;
+    pointer-events: none!important;
+    content: " "!important;
+    display: block!important;
+}
+
+.super-content ::-webkit-scrollbar {
+    width: 15px!important;
+    cursor: url('https://poolsuite.net/img/click.a54d5106.svg') 3 0, auto!important;
+}
+
+.super-content ::-webkit-scrollbar-thumb {
+    width: 14px!important;
+    height: 40px!important;
+    right: 0!important;
+    background: var(--gray) url('https://poolsuite.net/img/grabber.a0d90888.svg') no-repeat 50%!important;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;
+    border-radius: 0!important;
+    opacity: 1;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    cursor: url('https://poolsuite.net/img/click.a54d5106.svg') 3 0, auto!important;
+}
+
+.super-content ::-webkit-scrollbar-track {
+    width: 16px;
+    background: var(--gray) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQImWNgYGCQ+v//PwOcRuEwMEgxEFQBAFOdGLmlrGygAAAAAElFTkSuQmCC);
+    opacity: 1!important;
+    border-left: 1px solid #000;
+    padding: 14px 0;
+    margin-top: -1px!important;
+    margin-bottom: -1px!important;
+}
+
+.notion-image {
+    margin: 0!important;
+    margin-bottom: 5px!important;
+}
+
+.notion-root>*:not(.notion-image) {
+    margin-left: 60px!important;
+    margin-right: 60px!important;
+}
+
+p {
+    margin-bottom: 10px!important;
+}
+
+.notion-text {
+    font-size: 8px!important;
+    max-width: 500px!important;
+    /*min-height: 50px!important;*/
+    min-height: auto!important;
+}
+
+p .notion-semantic-string {
+    line-height: 2!important;
+}
+
+blockquote .notion-semantic-string {
+    line-height: 1!important;
+}
+
+.notion-quote {
+    font-family: 'Chicago'!important;
+    font-weight: 400!important;
+    font-size: 16px!important;
+    max-width: 500px!important;
+    line-height: 1!important;
+}
+
+.notion-heading {
+    font-family: 'Chicago'!important;
+    font-size: 16px!important;
+    font-weight: 400!important;
+}
+
+.spacer {
+    margin-left: 5px!important;
+    -webkit-box-flex: 1;
+    flex: 1!important;
+    height: 100%!important;
+    display: flex!important;
+    flex-direction: column!important;
+    align-items: center!important;
+    justify-content: center!important;
+}
+
+.spacer i {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #000;
+    border-bottom: 1px solid #fff;
+}
+
+.spacer i+i {
+    margin-top: 1px!important;
+}
+
+.notion-callout,
+.notion-callout__content {
+    overflow: unset!important;
+    margin-bottom: 0px!important;
+    font-size: 9px!important;
+}
+
+.notion-callout {
+    border: 1px solid #000!important;
+    border-radius: 0px!important;
+    background: #f4f4f4;
+}
+
+@media all and (max-width: 764px) {
+    .notion-root {
+        width: 100%!important;
+    }
+    body {
+        padding: 20px!important;
+    }
+    .notion-root>*:not(.notion-image) {
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+    }
+    .notion-text {
+        max-width: 100%!important;
+    }
+}

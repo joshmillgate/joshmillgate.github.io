@@ -132,7 +132,7 @@ body {
 
 /* 3 */
 
-#page-index {
+#__next>div {
     border: 1px solid #000!important;
     -webkit-box-shadow: inset -1px -1px 0 0 var(--tertiary), inset 1px 1px 0 0 #fff, 5px 5px 0 rgba(0, 0, 0, .2)!important;
     box-shadow: inset -1px -1px 0 0 var(--tertiary), inset 1px 1px 0 0 #fff, 5px 5px 0 rgba(0, 0, 0, .2)!important;
@@ -148,7 +148,7 @@ body {
 
 /* 4 */
 
-#page-index>div:nth-child(2) {
+#__next>div>div:nth-child(2) {
     -ms-touch-action: pan-y!important;
     touch-action: pan-y!important;
 }

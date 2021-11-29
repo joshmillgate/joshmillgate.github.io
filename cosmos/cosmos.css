@@ -1,0 +1,368 @@
+@font-face {
+    font-family: 'FUNGIS';
+    src: url('https://joshmillgate.github.io/cosmos/fonts/FUNGIS-Regular.eot');
+    src: url('https://joshmillgate.github.io/cosmos/fonts/FUNGIS-Regular.woff') format('woff'), url('https://joshmillgate.github.io/cosmos/fonts/FUNGIS-Regular.woff2') format('woff2'), url('https://joshmillgate.github.io/cosmos/fonts/FUNGIS-Regular.ttf') format('truetype'), url('https://joshmillgate.github.io/cosmos/fonts/FUNGIS-Regular.eot?#iefix') format('embedded-opentype'), url('https://joshmillgate.github.io/cosmos/fonts/FUNGIS-Regular.svg#FUNGIS-Regular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FUNGIS';
+    src: url('https://joshmillgate.github.io/cosmos/fonts/FUNGIS-Bold.eot');
+    src: url('https://joshmillgate.github.io/cosmos/fonts/FUNGIS-Bold.woff') format('woff'), url('https://joshmillgate.github.io/cosmos/fonts/FUNGIS-Bold.woff2') format('woff2'), url('https://joshmillgate.github.io/cosmos/fonts/FUNGIS-Bold.ttf') format('truetype'), url('https://joshmillgate.github.io/cosmos/fonts/FUNGIS-Bold.eot?#iefix') format('embedded-opentype'), url('https://joshmillgate.github.io/cosmos/fonts/FUNGIS-Bold.svg#FUNGIS-Bold') format('svg');
+    font-weight: 400;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'FUNGIS';
+    src: url('https://joshmillgate.github.io/cosmos/fonts/FUNGIS-Heavy.eot');
+    src: url('https://joshmillgate.github.io/cosmos/fonts/FUNGIS-Heavy.woff') format('woff'), url('https://joshmillgate.github.io/cosmos/fonts/FUNGIS-Heavy.woff2') format('woff2'), url('https://joshmillgate.github.io/cosmos/fonts/FUNGIS-Heavy.ttf') format('truetype'), url('https://joshmillgate.github.io/cosmos/fonts/FUNGIS-Heavy.eot?#iefix') format('embedded-opentype'), url('https://joshmillgate.github.io/cosmos/fonts/FUNGIS-Heavy.svg#FUNGIS-Heavy') format('svg');
+    font-weight: 500;
+    font-style: bold;
+}
+
+ :root {
+    --color-bg-default: #000!important;
+    --color-text-default: #fff!important;
+    --color-border-default: #131313!important;
+    --color-card-bg: transparent!important;
+    --color-hover-default: #131313!important;
+    --color-bg-dark-glass: rgba(0, 0, 0, .4)!important;
+    --bg-opacity: 0;
+    --color-pill-gray: #151517!important;
+    --max-width: 900px!important;
+}
+
+body {
+    font-family: 'Inter'!important;
+    position: relative!important;
+}
+
+.notion-divider {
+    border-color: rgba(255, 255, 255, .15)!important;
+    margin-bottom: 20px!important;
+}
+
+.super-content:after {
+    content: ''!important;
+    background: url('https://raw.githubusercontent.com/joshmillgate/joshmillgate.github.io/main/jm/footer-bg.png') no-repeat center center!important;
+    background-size: cover!important;
+    position: absolute!important;
+    z-index: -1!important;
+    min-width: 100%!important;
+    width: 100%!important;
+    min-height: 25%!important;
+    height: auto!important;
+    opacity: 1!important;
+    bottom: 0!important;
+    left: 0!important;
+    opacity: var(--bg-opacity)!important;
+    /*filter: grayscale(100%)!important;*/
+}
+
+.super-content {
+    padding-bottom: 10vh!important;
+    max-width: var(--max-width)!important;
+}
+
+h1.notion-heading {
+    font-family: 'FUNGIS'!important;
+}
+
+h2.notion-heading {
+    font-weight: 200!important;
+}
+
+h3.notion-heading {
+    font-weight: 200!important;
+}
+
+.notion-root>h1.notion-heading:first-of-type {
+    text-align: center!important;
+    font-size: 52px!important;
+    font-weight: 100!important;
+    margin: 0 auto!important;
+    margin-top: 100px!important;
+    margin-bottom: 200px!important;
+    max-width: 600px!important;
+}
+
+.notion-toggle.bg-gray,
+.notion-collection__header {
+    display: none!important;
+}
+
+.super-navbar {
+    border: 1px solid var(--color-border-default);
+    border-radius: 15px!important;
+    margin: 10px!important;
+    width: auto!important;
+    top: 1em!important;
+    background: var(--color-bg-dark-glass)!important;
+    backdrop-filter: blur(10px)!important;
+    width: calc(100% - 2em)!important;
+    margin: 1em auto 0!important;
+    height: 70px!important;
+}
+
+.super-navbar__menu-wrapper {
+    padding-right: 0px!important;
+    padding-top: 4px!important;
+}
+
+.super-navbar__menu {
+    border-radius: 15px!important;
+    border: 1px solid var(--color-border-default)!important;
+}
+
+.super-navbar__item {
+    padding: 15px 20px!important;
+}
+
+.super-navbar__menu-wrapper {
+    width: auto!important;
+}
+
+.notion-header__title,
+.notion-header__icon {
+    display: none!important;
+}
+
+.notion-header__cover {
+    height: 60vh!important;
+    max-height: 60vh!important;
+    z-index: -2!important;
+    top: 0!important;
+}
+
+.notion-header__cover.has-cover {
+    position: absolute!important;
+    width: 100%!important;
+    top: 0!important;
+    margin-top: -20px!important;
+}
+
+.notion-header__cover:after {
+    content: ""!important;
+    position: absolute!important;
+    z-index: 1!important;
+    bottom: 0!important;
+    left: 0!important;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 98%)!important;
+    width: 100%!important;
+    height: 100%!important;
+}
+
+.notion-collection {
+    margin-top: 10px!important;
+    margin-bottom: 150px!important;
+}
+
+.notion-collection-list,
+.notion-collection-gallery {
+    border: 0!important;
+}
+
+.notion-collection-list__item {
+    padding: 9px!important;
+    border: 1px solid var(--color-border-default);
+    border-radius: 15px!important;
+    transition: background .2s ease!important;
+}
+
+.notion-collection-list__item:hover {
+    background-color: var(--color-hover-default)!important;
+}
+
+.notion-property__title__icon-wrapper {
+    margin-right: 20px!important;
+}
+
+.notion-property__title__icon-wrapper,
+.notion-property__title__icon-wrapper * {
+    width: 42px!important;
+    height: 42px!important;
+    margin-bottom: 2px!important;
+    overflow: unset!important;
+}
+
+.notion-collection-list__item .notion-property__title .notion-semantic-string>span {
+    border: 0!important;
+}
+
+.notion-collection-list__item-property .notion-property__select {
+    text-transform: uppercase!important;
+    font-size: 12px!important;
+    letter-spacing: 2px!important;
+    font-weight: 700!important;
+}
+
+.notion-pill {
+    padding: 3px 8px!important;
+    border-radius: 3px!important;
+    font-size: 10px!important;
+    line-height: 16px!important;
+    white-space: nowrap!important;
+    display: inline-block!important;
+    margin: 3px 0!important;
+    font-weight: 400!important;
+    -webkit-margin-end: 6px!important;
+    margin-inline-end: 6px!important;
+    color: #4d4d4d;
+}
+
+
+/* GALLERY */
+
+.notion-collection-gallery.large {
+    display: flex!important;
+    flex-direction: column!important;
+}
+
+.notion-collection-gallery.medium {
+    display: grid!important;
+    grid-template-columns: 1fr 1fr!important;
+}
+
+.notion-collection-card__cover,
+.notion-collection-card__cover>span,
+.notion-collection-card__cover img {
+    transition: transform .2s ease-in-out!important;
+}
+
+.notion-collection-card:hover .notion-collection-card__cover img {
+    transform: scale(1.06)!important;
+}
+
+.notion-collection-card__cover.large,
+.notion-collection-card__cover.large>span,
+.notion-collection-card__cover.large img {
+    height: 360px!important;
+    max-height: 360px!important;
+}
+
+.notion-collection-card__cover.medium,
+.notion-collection-card__cover.medium>span,
+.notion-collection-card__cover.medium img {
+    height: 380px!important;
+    max-height: 380px!important;
+}
+
+.notion-collection-card {
+    width: 100%;
+    height: 100%;
+    box-shadow: none!important;
+    border-radius: 15px!important;
+    border: 1px solid var(--color-border-default)!important;
+}
+
+.notion-collection-card:hover {
+    background: var(--color-hover-default)!important;
+    cursor: pointer!important;
+}
+
+.notion-collection-card .notion-property__title {
+    padding: 25px!important;
+    font-size: 1.2rem!important;
+}
+
+@media all and (max-width: 764px) {
+    .notion-collection-list {
+        display: flex!important;
+    }
+    .notion-collection-gallery.large {
+        grid-template-columns: 1fr!important;
+    }
+    .notion-root>h1.notion-heading {
+        font-size: 42px!important;
+        margin-bottom: 100px!important;
+        margin-top: 70px!important;
+    }
+    .notion-collection-list__item .notion-property__title .notion-semantic-string {
+        white-space: pre-wrap!important;
+    }
+    .notion-collection-list .notion-property__select {
+        display: none!important;
+    }
+    .notion-property__title__icon-wrapper {
+        margin-right: 15px!important;
+    }
+    .notion-collection-list__item .notion-property__title .notion-semantic-string {
+        margin-inline-end: 6px!important;
+    }
+    .notion-collection {
+        margin-bottom: 60px!important;
+    }
+    .notion-collection-card__cover.large,
+    .notion-collection-card__cover.large>span,
+    .notion-collection-card__cover.large img {
+        height: 200px!important;
+        max-height: 200px!important;
+    }
+}
+
+.notion-root .notion-text .notion-text__content .notion-semantic-string span strong .notion-link,
+.notion-text .notion-text__content .notion-semantic-string span .notion-link strong {
+    margin: 15px 0px!important;
+    padding: 10px 15px!important;
+    border-radius: 15px!important;
+    opacity: 1!important;
+    font-weight: 500!important;
+    display: inline-flex!important;
+    justify-content: center!important;
+    transition: background .2s ease-in-out!important;
+    background: white!important;
+    color: black!important;
+}
+
+
+/* Selection */
+
+::-moz-selection {
+    background: var(--color-text-default)!important;
+    color: var(--color-bg-default)!important;
+}
+
+::selection {
+    background: var(--color-text-default)!important;
+    color: var(--color-bg-default)!important;
+}
+
+
+/* Scrollbar */
+
+html ::-webkit-scrollbar {
+    width: 10px!important;
+    background: var(--color-bg-default)!important;
+    padding: 2px!important;
+    margin: 3px!important;
+}
+
+html ::-webkit-scrollbar-thumb {
+    width: 10px!important;
+    border-radius: 10px!important;
+    margin: 2px!important;
+    background: #3e3e3e!important;
+}
+
+html ::-webkit-scrollbar-track {
+    padding: 2px!important;
+    margin: 5px!important;
+    margin-right: 2px!important;
+}
+
+
+/* Code */
+
+pre,
+code {
+    background: rgb(19, 19, 19)!important;
+    color: var(--color-text-default)!important;
+    font-size: 14px!important;
+    text-shadow: none!important;
+}
+
+code>span {
+    font-weight: normal!important;
+}

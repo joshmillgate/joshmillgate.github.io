@@ -51,16 +51,19 @@
       
       themeModeBtn.addEventListener('click', () => {
         if(html.classList[0] == 'theme-default') {
+          console.log('1')
           html.classList.remove('theme-default')
           html.classList.add('theme-blackout')
           themeModeImg.setAttribute('src', sunIcon)
          localStorage.setItem("theme", "theme-blackout");
         } else if (html.classList[0] == 'theme-blackout') {
+          console.log('2')
           html.classList.remove('theme-blackout')
           html.classList.add('theme-default')
           themeModeImg.setAttribute('src', moonIcon)
           localStorage.setItem("theme", "theme-default");
         } else {
+          console.log('3')
           html.classList.remove('theme-default')
           html.classList.add('theme-blackout')
           themeModeImg.setAttribute('src', sunIcon)

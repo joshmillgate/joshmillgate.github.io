@@ -33,7 +33,10 @@
       const themeModeImg = document.createElement('img')
       themeModeBtn.appendChild(themeModeImg)
       themeModeBtn.setAttribute('id', 'toggle-theme')
-      navbar.appendChild(themeModeBtn)
+
+      if(!document.querySelector('#toggle-theme')) {
+        navbar.appendChild(themeModeBtn)
+      }
       
       switch (html.classList[0]) {
         case 'theme-default':

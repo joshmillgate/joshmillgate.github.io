@@ -50,6 +50,7 @@
       }
       
       themeModeBtn.addEventListener('click', () => {
+        console.log('clicking')
         if(html.classList[0] == 'theme-default') {
           html.classList.remove('theme-default')
           html.classList.add('theme-blackout')

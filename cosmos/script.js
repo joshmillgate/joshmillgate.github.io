@@ -33,7 +33,7 @@
       const themeModeImg = document.createElement('img')
       themeModeBtn.appendChild(themeModeImg)
       themeModeBtn.setAttribute('id', 'toggle-theme')
-      
+      navbar.appendChild(themeModeBtn)
       
       switch (html.classList[0]) {
         case 'theme-default':
@@ -50,21 +50,23 @@
       }
       
       themeModeBtn.addEventListener('click', () => {
-        console.log('clicking')
         if(html.classList[0] == 'theme-default') {
           html.classList.remove('theme-default')
           html.classList.add('theme-blackout')
           themeModeImg.setAttribute('src', sunIcon)
          localStorage.setItem("theme", "theme-blackout");
         } else if (html.classList[0] == 'theme-blackout') {
-           html.classList.remove('theme-blackout')
+          html.classList.remove('theme-blackout')
           html.classList.add('theme-default')
           themeModeImg.setAttribute('src', moonIcon)
           localStorage.setItem("theme", "theme-default");
-        } 
+        } else {
+          html.classList.remove('theme-default')
+          html.classList.add('theme-blackout')
+          themeModeImg.setAttribute('src', sunIcon)
+         localStorage.setItem("theme", "theme-blackout");
+        }
       })
-      
-      navbar.appendChild(themeModeBtn)
     }
     toggleTheme()
 

@@ -426,7 +426,7 @@
           grid-template-columns: 1fr!important;
       }
       .notion-root>h1.notion-heading:first-of-type {
-          font-size: 42px!important;
+          font-size: 32px!important;
           margin-bottom: 10px!important;
           margin-top: 0px!important;
       }

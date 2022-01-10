@@ -1,31 +1,30 @@
-
-  function onPageLoad() {
+function onPageLoad() {
     const header = document.querySelector('.notion-header');
-    const html = document.querySelector('html')
+    const html = document.querySelector('html');
     const moonIcon = 'https://joshmillgate.github.io/cosmos/images/moon-dark.svg';
     const sunIcon = 'https://joshmillgate.github.io/cosmos/images/sun-light.svg';
     
     const footerCover = () => {
-      const footerCoverNode = document.querySelector('.footer-cover')
+      const footerCoverNode = document.querySelector('.footer-cover');
       if(footerCoverNode){
-        footerCoverNode.remove()
+        footerCoverNode.remove();
       }
-      const cover = document.querySelector('.notion-header__cover')
+      const cover = document.querySelector('.notion-header__cover');
       const clone = cover.cloneNode(true);
-      clone.classList.add('footer-cover')
-      clone.classList.remove('notion-header__cover', 'has-cover')
-      const content = document.querySelector('.super-content')
+      clone.classList.add('footer-cover');
+      clone.classList.remove('notion-header__cover', 'has-cover');
+      const content = document.querySelector('.super-content');
      
-     content.appendChild(clone)
+     content.appendChild(clone);
     }
-    footerCover()
+    footerCover();
     
     const setTheme = () => {
       const savedTheme = localStorage.getItem("theme");
       html.className = '';
-      html.classList.add(savedTheme)
+      html.classList.add(savedTheme);
     }
-    setTheme()
+    setTheme();
     
     const toggleTheme = () => {
       const navbar = document.querySelector('.super-navbar__actions ')
@@ -54,27 +53,24 @@
       
       themeModeBtn.addEventListener('click', () => {
         if(html.classList[0] == 'theme-default') {
-          console.log('1')
-          html.classList.remove('theme-default')
-          html.classList.add('theme-blackout')
-          themeModeImg.setAttribute('src', sunIcon)
+          html.classList.remove('theme-default');
+          html.classList.add('theme-blackout');
+          themeModeImg.setAttribute('src', sunIcon);
          localStorage.setItem("theme", "theme-blackout");
         } else if (html.classList[0] == 'theme-blackout') {
-          console.log('2')
-          html.classList.remove('theme-blackout')
-          html.classList.add('theme-default')
-          themeModeImg.setAttribute('src', moonIcon)
+          html.classList.remove('theme-blackout');
+          html.classList.add('theme-default');
+          themeModeImg.setAttribute('src', moonIcon);
           localStorage.setItem("theme", "theme-default");
         } else {
-          console.log('3')
-          html.classList.remove('theme-default')
-          html.classList.add('theme-blackout')
-          themeModeImg.setAttribute('src', sunIcon)
+          html.classList.remove('theme-default');
+          html.classList.add('theme-blackout');
+          themeModeImg.setAttribute('src', sunIcon);
          localStorage.setItem("theme", "theme-blackout");
         }
-      })
+      });
     }
-    toggleTheme()
+    toggleTheme();
 
 
     const config = { subtree: true, characterData: true };
@@ -82,9 +78,9 @@
     const callback = function(mutationsList, observer) {
         for (const mutation of mutationsList) {
             if (mutation.type === 'characterData') {
-                footerCover()
-                setTheme()
-                toggleTheme()
+                footerCover();
+                setTheme();
+                toggleTheme();
             }
         }
     };

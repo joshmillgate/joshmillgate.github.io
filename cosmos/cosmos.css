@@ -80,11 +80,14 @@
     opacity:.7!important;
     width: 22px!important;
     height: 22px!important;
+    transition: all .2s ease-in-out!important;
+    margin-right: 10px!important;
   }
   
   #toggle-theme img {
     width: 22px!important;
     height: 22px!important;
+    transition: all .2s ease-in-out!important;
   }
   
   #toggle-theme:hover {
@@ -477,36 +480,6 @@
     opacity: .5!important;
   }
   
-  ::-moz-selection {
-      background: var(--color-text-default)!important;
-      color: var(--color-bg-default)!important;
-  }
-  
-  ::selection {
-      background: var(--color-text-default)!important;
-      color: var(--color-bg-default)!important;
-  }
-  
-  
-  html ::-webkit-scrollbar {
-      width: 10px!important;
-      background: var(--color-bg-default)!important;
-      padding: 2px!important;
-      margin: 3px!important;
-  }
-  
-  html ::-webkit-scrollbar-thumb {
-      width: 10px!important;
-      border-radius: 10px!important;
-      margin: 2px!important;
-      background: var(--scrollbar-color)!important;
-  }
-  
-  html ::-webkit-scrollbar-track {
-      padding: 2px!important;
-      margin: 5px!important;
-      margin-right: 2px!important;
-  }
   
   pre {
         border: 1px solid var(--color-border-default)!important;
@@ -553,4 +526,38 @@
       border-radius: 5px!important;
   }
   
+  .notion-header__icon-wrapper.has-icon {
+    display: none!important;
+  }
   
+  
+  ::-moz-selection {
+      background: var(--color-text-default)!important;
+      color: var(--color-bg-default)!important;
+  }
+  
+  ::selection {
+      background: var(--color-text-default)!important;
+      color: var(--color-bg-default)!important;
+  }
+  
+  
+  html ::-webkit-scrollbar {
+      width: 10px!important;
+      background: var(--color-bg-default)!important;
+      padding: 2px!important;
+      margin: 3px!important;
+  }
+  
+  html ::-webkit-scrollbar-thumb {
+      width: 10px!important;
+      border-radius: 10px!important;
+      margin: 2px!important;
+      background: var(--scrollbar-color)!important;
+  }
+  
+  html::-webkit-scrollbar-track {
+      padding: 2px!important;
+      margin: 5px!important;
+      margin-right: 2px!important;
+  }

@@ -27,7 +27,7 @@ function onPageLoad() {
     setTheme();
     
     const toggleTheme = () => {
-      const navbar = document.querySelector('.super-navbar__actions ')
+      const navbar = document.querySelector('.super-navbar')
       const themeModeBtn = document.createElement('div')
       const themeModeImg = document.createElement('img')
       themeModeBtn.appendChild(themeModeImg)

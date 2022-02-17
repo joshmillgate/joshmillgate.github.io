@@ -139,6 +139,7 @@
       top: 1.4em!important;
       background: var(--color-bg-glass-default)!important;
       backdrop-filter: blur(10px)!important;
+      -webkit-backdrop-filter: blur(10px)!important;
       width: calc(100% - 40px)!important;
       margin: 20px auto!important;
       height: 70px!important;

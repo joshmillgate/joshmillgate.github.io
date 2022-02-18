@@ -32,6 +32,7 @@ function onPageLoad() {
       const themeModeImg = document.createElement('img')
       themeModeBtn.appendChild(themeModeImg)
       themeModeBtn.setAttribute('id', 'toggle-theme')
+      themeModeImg.setAttribute('src', sunIcon)
 
       if(!document.querySelector('#toggle-theme')) {
         navbar.appendChild(themeModeBtn)

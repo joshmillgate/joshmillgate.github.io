@@ -128,6 +128,14 @@
 /* BODY */
 /**/
 
+.notion-navbar .notion-breadcrumb {
+  background: transparent!important;
+}
+
+.notion-navbar .notion-breadcrumb__item:hover {
+  background: transparent!important;
+}
+
 body {
   -webkit-font-smoothing: antialiased!important;
   -moz-osx-font-smoothing: grayscale!important;

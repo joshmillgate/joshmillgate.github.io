@@ -45,6 +45,11 @@ body {
 .super-content {
     padding: 0 !important;
 }
+
+.notion-navbar .notion-breadcrumb {
+    position: static!important;
+}
+
 .notion-navbar__search {
     right: 15px !important;
 }

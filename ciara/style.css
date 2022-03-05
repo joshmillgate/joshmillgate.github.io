@@ -1,0 +1,226 @@
+@font-face {
+    font-family: Canela;
+    src: url('https://joshmillgate.github.io/ciara/fonts/Canela-Light.eot');
+    src: url('https://joshmillgate.github.io/ciara/fonts/Canela-Light.eot?#iefix') format("embedded-opentype"), url('https://joshmillgate.github.io/ciara/fonts/Canela-Light.woff2') format("woff2"), url('https://joshmillgate.github.io/ciara/fonts/Canela-Light.woff') format("woff"),
+        url('https://joshmillgate.github.io/ciara/fonts/Canela-Light.ttf') format("truetype"), url('https://joshmillgate.github.io/ciara/fonts/Canela-Light.svg#Canela-Light') format("svg");
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: Canela;
+    src: url('https://joshmillgate.github.io/ciara/fonts/Canela-LightItalic.eot');
+    src: url('https://joshmillgate.github.io/ciara/fonts/Canela-LightItalic.eot?#iefix') format("embedded-opentype"), url('https://joshmillgate.github.io/ciara/fonts/Canela-LightItalic.woff2') format("woff2"), url('https://joshmillgate.github.io/ciara/fonts/Canela-LightItalic.woff') format("woff"),
+        url('https://joshmillgate.github.io/ciara/fonts/Canela-LightItalic.ttf') format("truetype"), url('https://joshmillgate.github.io/ciara/fonts/Canela-LightItalic.svg') format("svg");
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: Canela;
+    src: url('https://joshmillgate.github.io/ciara/fonts/Canela-Regular.eot');
+    src: url('https://joshmillgate.github.io/ciara/fonts/Canela-Regular.eot?#iefix') format("embedded-opentype"), url('https://joshmillgate.github.io/ciara/fonts/Canela-Regular.woff2') format("woff2"), url('https://joshmillgate.github.io/ciara/fonts/Canela-Regular.woff') format("woff"),
+        url('https://joshmillgate.github.io/ciara/fonts/Canela-Regular.ttf') format("truetype"), url('https://joshmillgate.github.io/ciara/fonts/Canela-Regular.svg') format("svg");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Canela;
+    src: url('https://joshmillgate.github.io/ciara/fonts/Canela-RegularItalic.eot');
+    src: url('https://joshmillgate.github.io/ciara/fonts/Canela-RegularItalic.eot?#iefix') format("embedded-opentype"), url('https://joshmillgate.github.io/ciara/fonts/Canela-RegularItalic.woff2') format("woff2"), url('https://joshmillgate.github.io/ciara/fonts/Canela-RegularItalic.woff') format("woff"),
+        url('https://joshmillgate.github.io/ciara/fonts/Canela-RegularItalic.ttf') format("truetype"), url('https://joshmillgate.github.io/ciara/fonts/Canela-RegularItalic.svg') format("svg");
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: Canela;
+    src: url('https://joshmillgate.github.io/ciara/fonts/Canela-Medium.eot');
+    src: url('https://joshmillgate.github.io/ciara/fonts/Canela-Medium.eot?#iefix') format("embedded-opentype"), url('https://joshmillgate.github.io/ciara/fonts/Canela-Medium.woff2') format("woff2"), url('https://joshmillgate.github.io/ciara/fonts/Canela-Medium.woff') format("woff"),
+        url('https://joshmillgate.github.io/ciara/fonts/Canela-Medium.ttf') format("truetype"), url('https://joshmillgate.github.io/ciara/fonts/Canela-Medium.svg') format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Canela;
+    src: url('https://joshmillgate.github.io/ciara/fonts/Canela-MediumItalic.eot');
+    src: url('https://joshmillgate.github.io/ciara/fonts/Canela-MediumItalic.eot?#iefix') format("embedded-opentype"), url('https://joshmillgate.github.io/ciara/fonts/Canela-MediumItalic.woff2') format("woff2"), url('https://joshmillgate.github.io/ciara/fonts/Canela-MediumItalic.woff') format("woff"),
+        url('https://joshmillgate.github.io/ciara/fonts/Canela-MediumItalic.ttf') format("truetype"), url('https://joshmillgate.github.io/ciara/fonts/Canela-MediumItalic.svg') format("svg");
+    font-weight: 400;
+    font-style: italic;
+}
+
+:root {
+  --primary-color: #3A4A2F!important;
+  --color-bg-primary: #3A4A2F!important;
+  --color-text-white: white!important;
+  --max-width: 1108px!important;
+  --color-bg-brown-light: #343A33!important;
+  --color-bg-green-light: var(--color-bg-primary)!important;
+  --color-border-dark: #494949!important;
+}
+
+body {
+  font-family: 'Canela'!important;
+  font-weight: 100!important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  text-rendering: optimizeLegibility !important;
+  background: url('https://joshmillgate.github.io/ciara/images/lightpaperfibers.png');
+  background-repeat: repeat;
+}
+
+.max-width {
+  max-width: var(--max-width)!important;
+}
+
+#page-index .notion-header {
+  display: none!important;
+}
+
+.notion-header__cover.no-cover{
+  height: 100px!important;  
+}
+
+.notion-header__title {
+  text-align: center!important;
+  font-weight: 100!important;
+  font-size: 3.6rem!important;
+}
+
+.super-content {
+  margin-top: 60px!important;
+  padding-bottom:0px!important;
+}
+
+.super-content > * {
+  grid-column: 2;
+}
+
+
+.notion-toggle.bg-brown {
+  display: none!important;
+}
+
+h1:nth-of-type(1) * {
+  text-align: center!important;
+  font-size: 3.6rem;
+  font-weight: 200!important;
+}
+
+h2 *, h3 * {
+  font-weight: 300!important;
+}
+
+h2 {
+  font-size: 2rem!important;
+}
+
+h3 {
+  font-size: 1.4rem!important;
+}
+
+.notion-root > .notion-text:nth-of-type(1) {
+  text-align: center!important;
+  font-size: 2rem;
+  color: #A6A6A6!important;
+  font-weight: 100!important;
+  margin-bottom: 60px!important;
+}
+.notion-text:nth-of-type(1) * {
+  line-height: 2.5rem!important;
+  font-family: 'Canela'!important;
+}
+
+.notion-text {
+  font-family: 'Inter'!important;
+}
+
+.notion-image img:nth-of-type(-n+3) {
+  border-radius: 50%!important;
+}
+
+.notion-heading, .notion-column .notion-heading, .notion-column .notion-text {
+  text-align: center!important;
+}
+
+.notion-callout:last-child {
+  color: var(--color-text-white)!important;
+  text-align: center!important;
+  border: 0!important;
+  border-radius: 0px!important;
+ width: 100vw;
+ position: relative;
+ margin-left: -50vw;
+ height: auto!important;
+ margin-top: 100px;
+ left: 50%;
+ padding: 80px;
+ margin-bottom: -1px!important;
+}
+
+.notion-callout.bg-brown {
+  background: #343A33!important;
+}
+
+.notion-callout .notion-collection {
+  max-width: 700px!important;
+  margin: 0 auto!important;
+}
+
+
+.notion-callout__icon {
+  display: none!important;
+}
+
+.notion-collection-list__item {
+  padding: 18px 10px;
+  border-bottom: 1px solid var(--color-border-dark)!important;
+  border-radius: 0px!important;
+  margin: 0!important;
+  transition: background .2s ease-in-out!important;
+}
+
+.notion-collection-list__item:hover {
+  background: #282d28!important;
+}
+
+.notion-collection__header-wrapper, .notion-property__title__icon-wrapper {
+  display: none!important;
+}
+
+.notion-collection-list {
+  font-family: 'Inter'!important;
+  border-top: 0!important;
+}
+
+.notion-collection-list__item .notion-property__title .notion-semantic-string > span {
+  border: 0!important;
+}
+
+  .notion-root .notion-text .notion-text__content .notion-semantic-string span strong .notion-link,
+  .notion-text .notion-text__content .notion-semantic-string span .notion-link strong {
+      margin: 20px 0px!important;
+      padding: 18px 22px!important;
+      border-radius: 0px!important;
+      opacity: 1!important;
+      font-weight: 500!important;
+      display: inline-flex!important;
+      justify-content: center!important;
+      transition: background .2s ease-in-out!important;
+      background: var(--color-bg-primary)!important;
+      color: var(--color-text-white)!important;
+      text-transform: uppercase!important;
+      font-size: 12px!important;
+      letter-spacing: 1px!important;
+  }
+  
+  .notion-semantic-string .link {
+    opacity: 1!important;
+  }
+  
+    .notion-semantic-string .link:hover {
+    opacity: .7!important;
+  }
+  
+  #block-ba2045ee1b3c4fa289cfd3bf0a9a8789, #block-bf798bff264142ab9218484e2c7d2255 {
+    display: flex!important;
+    justify-content: center!important;
+  }

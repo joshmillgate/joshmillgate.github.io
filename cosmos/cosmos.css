@@ -660,7 +660,7 @@ margin-top: 5px!important;
 
     /* Restyle menu */
     .notion-dropdown__menu {
-        background: var(--color-bg-default) !important;
+        background:transparent !important;
         box-shadow: unset !important;
         transform: none !important;
         left: auto !important;

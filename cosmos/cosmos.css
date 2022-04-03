@@ -637,6 +637,10 @@ margin-top: 5px!important;
   font-size: 16px!important;
 }
 
+.notion-dropdown__button:hover {
+    background: transparent!important;
+}
+
 /* Desktop styles */
 @media all and (min-width: 624px) { 
     /* Hide default dropdown */

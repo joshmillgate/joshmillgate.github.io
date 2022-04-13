@@ -411,6 +411,7 @@ p.notion-callout__content > span > span strong {
     background: 0 0 !important;
     align-self: flex-start;
     border-radius: 7px !important;
+    overflow: unset!important;
 }
 .notion-callout a {
     margin-top: 15px !important;

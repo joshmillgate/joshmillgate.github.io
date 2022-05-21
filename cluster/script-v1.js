@@ -18,15 +18,9 @@ Prism.languages.scss=Prism.languages.extend("css",{comment:{pattern:/(^|[^\\])(?
 // Cluster Script
 $(document).ready(function () {
   // Append nav button
-// Append nav button
-if ($('#nav-toggle').length === 0) {
-  if ($('.notion-navbar')) {
-  $('.notion-navbar').append('<div id="nav-toggle" class="js-menu menu"><span class="bar"></span></div>');
-  } 
-  if ($('.super-navbar')) {
-  $('.super-navbar__actions ').append('<div id="nav-toggle" class="js-menu menu"><span class="bar"></span></div>');
-  } 
- };
+  if ($('#nav-toggle').length === 0) {
+    $('.notion-navbar').append('<div id="nav-toggle" class="js-menu menu"><span class="bar"></span></div>');
+   };
    
   // Init close nav function
   var closeNav = () => {

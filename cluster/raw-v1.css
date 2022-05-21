@@ -59,7 +59,6 @@ body {
 }
 .notion-navbar {
     display: flex !important;
-    position: fixed !important;
     height: 70px !important;
     border-bottom: 1px solid var(--color-border-default) !important;
     box-shadow: none !important;

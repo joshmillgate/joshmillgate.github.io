@@ -512,7 +512,7 @@ p.notion-callout__content > span > span strong {
     letter-spacing: 1px !important;
     font-weight: 300 !important;
 }
-.notion-root > .notion-column-list > .notion-column:first-child .otion-page__title {
+.notion-root > .notion-column-list > .notion-column:first-child .notion-page__title {
     opacity: 0.8 !important;
 }
 .notion-root > .notion-column-list > .notion-column:first-child a:hover div {

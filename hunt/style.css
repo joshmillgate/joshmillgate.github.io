@@ -93,19 +93,22 @@ h1.notion-heading {
     justify-content: space-between!important;
     font-size: 0.8em!important;
 }
-.property-416d7e56 {
-    background: var(--primary-color)!important;
+
+.notion-collection-card__property:last-child, .notion-collection-list__item-property:last-child {
+    background: var(--button-bg-color)!important;
     border-radius: 100px!important;
     padding: 10px!important;
-    color: white!important;
+    color: var(--button-text-color)!important;
     font-size: 16px!important;
     font-weight: 600!important;
     opacity: .5!important;
     transition: opacity .15s ease-in-out!important;
     position: absolute!important;
-    top: 20px;
-    right: 20px;
+    top: 20px!important;
+    right: 20px!important;
 }
+
+
 .notion-property.notion-property__select .notion-pill {
     padding: 14px 10px!important;
     margin: 0!important;
@@ -124,7 +127,8 @@ h1.notion-heading {
     background: none!important;
     cursor: pointer!important;
 }
-.notion-collection-card:hover .property-416d7e56, .notion-collection-list__item:hover .property-416d7e56 {
+
+.notion-collection-card:hover .notion-collection-card__property:last-child, .notion-collection-list__item:hover .notion-collection-list__item-property:last-child {
     opacity: 1!important;
 }
 .notion-collection-card:hover > .notion-property__title {
@@ -188,7 +192,7 @@ h1.notion-heading {
     font-size: 22px!important;
     margin-bottom: 10px!important;
 }
-h1.notion-heading:first-of-type {
+.notion-root > h1.notion-heading:first-of-type {
     text-align: center!important;
     max-width: 600px!important;
     margin: 0 auto!important;
@@ -377,10 +381,6 @@ h1.notion-heading:first-of-type {
       height: 100%!important;
   }
   
-#page-blog .notion-property__title__icon-wrapper {
-  display: none!important;
-}
-
 #page-index .notion-header__content{
   display: none!important;
 }
@@ -413,7 +413,7 @@ h1.notion-heading:first-of-type {
 .max-width {
     max-width: var(--page-width)!important;
 }
-.parent-page__blog .max-width {
+#page-setup-guide .max-width {
     max-width: 900px!important;
 }
 .notion-root .notion-text .notion-text__content .notion-semantic-string span strong .notion-link, .notion-text .notion-text__content .notion-semantic-string span .notion-link strong {

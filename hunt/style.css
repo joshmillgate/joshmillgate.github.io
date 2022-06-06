@@ -4,6 +4,7 @@
     --color-bg-default:#FBFCFF!important;
     --button-bg-color: #202B3F!important;
     --button-text-color: #ffffff!important;
+    --mobile-menu-background-color: #FFFFFF!important;
     --list-item-border: #E1E9FF;
     --list-item-hover: #F1F5FF;
     --page-width: 1280px;
@@ -13,6 +14,9 @@ body {
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale !important;
     text-rendering: optimizeLegibility !important;
+}
+.super-navbar__menu {
+  background: var(--mobile-menu-background-color)!important;
 }
 .super-navbar {
   transition: height 0.3s ease-in-out !important;

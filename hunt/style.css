@@ -395,9 +395,15 @@ h1.notion-heading:first-of-type {
     text-align: center!important;
 }
 .notion-header__icon-wrapper.has-icon, .notion-header__icon-wrapper.has-icon-image {
-    inset: -112px 0 0 0!important;
-    text-align: center!important;
+  position: absolute!important;
+  margin-left: auto!important;
+  margin-right: auto!important;
+  left: 0!important;
+  right: 0!important;
+  text-align: center!important;
 }
+
+
 /* On homepage, make text center align */
 #page-index .notion-text {
     text-align: center!important;
@@ -429,3 +435,4 @@ h1.notion-heading:first-of-type {
 .notion-link:hover {
     opacity: .7!important;
 }
+

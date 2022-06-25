@@ -87,6 +87,9 @@ h1.notion-heading {
 .notion-property.notion-property__title .notion-semantic-string span {
     white-space: pre-wrap!important;
 }
+.notion-property.notion-property__title .notion-semantic-string {
+    display: flex!important;
+}
 .notion-collection-card .notion-property__title {
     padding: 0px!important;
     margin-top: 20px!important;

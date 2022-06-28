@@ -55,10 +55,11 @@
   --color-bg-brown-light: #343A33!important;
   --color-bg-green-light: var(--color-bg-primary)!important;
   --color-border-dark: #494949!important;
+  --primary-font: 'Canela'!important;
+  --secondary-font: 'Inter'!important;
 }
 
 body {
-  font-family: 'Canela'!important;
   font-weight: 100!important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;

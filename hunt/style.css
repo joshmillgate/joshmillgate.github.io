@@ -9,6 +9,7 @@
     --list-item-hover: #F1F5FF;
     --page-width: 1280px;
     --button-rounding: 50px!important;
+    --header-title-align: center!important;
 }
 body {
     -webkit-font-smoothing: antialiased !important;

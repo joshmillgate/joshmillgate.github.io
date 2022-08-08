@@ -186,7 +186,11 @@ h1.notion-heading {
     flex-direction: column!important;
     justify-content: flex-start!important;
     align-items: flex-start!important;
-    max-width: 460px!important;
+    max-width: 600px!important;
+}
+
+.notion-collection-list__item-content .notion-property__text {
+    max-width: 600px!important;
 }
 .notion-collection-list__item-property .notion-semantic-string {
     white-space: pre-wrap!important;

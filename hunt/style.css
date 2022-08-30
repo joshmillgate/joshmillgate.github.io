@@ -10,6 +10,7 @@
     --page-width: 1280px;
     --button-rounding: 50px!important;
     --header-title-align: center!important;
+    --card-radius: 36px!important;
 }
 body {
     -webkit-font-smoothing: antialiased !important;
@@ -73,7 +74,7 @@ h1.notion-heading {
     margin-bottom: 10px!important;
 }
 .notion-collection-card__cover {
-    border-radius: 36px!important;
+    border-radius: var(--card-radius)!important;
     box-shadow: 0 3px 16px 0 rgba(38, 47, 92, 0.06);
     border: 0!important;
 }
@@ -148,7 +149,7 @@ h1.notion-heading {
 }
 .notion-collection-card:hover .notion-collection-card__cover {
     transform: scale(.97)!important;
-    border-radius: 39px!important;
+    border-radius: calc(var(--card-radius) + 2px)!important;
 }
 .notion-collection-card:hover .notion-collection-card__cover img {
     transform: scale(1.15)!important;

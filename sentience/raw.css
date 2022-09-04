@@ -894,6 +894,10 @@ ol li {
 /* COLLECTION */
 /**/
 
+.notion-collection-card__property-list {
+  display: flex!important;
+}
+
 /* Collection Icon */
 .notion-collection-list__item-content,
 .notion-property__title__icon-wrapper {
@@ -1039,7 +1043,6 @@ ol li {
 }
 
 .notion-collection-card__content {
-  display: flex!important;
   align-items: center!important;
   -webkit-padding-start: 0px!important;
   padding-inline-start: 0px!important;

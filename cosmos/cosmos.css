@@ -536,6 +536,7 @@
       background: var(--color-bg-default)!important;
       padding: 2px!important;
       margin: 3px!important;
+      border: 0!important;
   }
   
   html ::-webkit-scrollbar-thumb {

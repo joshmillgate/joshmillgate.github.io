@@ -23,6 +23,10 @@ body {
     background-size: 16px 16px!important;
 }
 
+.notion-dropdown__option.active {
+    background: var(--dark-glass)!important;
+  }
+
 .notion-toggle.bg-brown {
     display: none!important;
 }

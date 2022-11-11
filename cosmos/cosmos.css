@@ -15,6 +15,7 @@
     --color-navbar-cta-bg: rgba(0,0,0,.4)!important;
     --color-pill-gray: #151517!important;
     --scrollbar-color: #383838!important;
+    --color-text-default-light: var(--color-text-default)!important;
   }
   
   .theme-darkmode body {
@@ -30,6 +31,7 @@
     --color-navbar-cta-bg: rgba(0,0,0,.4)!important;
       --color-pill-gray: #151517!important;
       --scrollbar-color: #383838!important;
+      --color-text-default-light: var(--color-text-default)!important;
   }
   
   .theme-blackout body {
@@ -45,6 +47,7 @@
     --color-navbar-cta-bg: rgba(0,0,0,.1)!important;
       --color-pill-gray: #151517!important;
       --scrollbar-color: #383838!important;
+      --color-text-default-light: var(--color-text-default)!important;
   }
   
   .theme-default body {
@@ -60,6 +63,7 @@
     --color-navbar-cta-bg: rgba(0,0,0,.1)!important;
     --color-pill-gray: #e9e9e9!important;
     --scrollbar-color: #D1D1D1!important;
+    --color-text-default-light: var(--color-text-default)!important;
   }
   
   .theme-neutral body {
@@ -74,6 +78,7 @@
     --color-pill-gray: #e9e9e9!important;
     --scrollbar-color: #D1D1D1!important;
     --footer-text-color: var(--color-text-default)!important;
+    --color-text-default-light: var(--color-text-default)!important;
   }
   
   body {

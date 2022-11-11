@@ -759,12 +759,19 @@ margin-top: 5px!important;
 }
 .theme-default .dark-mode-icon {
     display: flex;
-    fill: var(--color-text-default)!important;
 }
+
+.theme-default .dark-mode-icon svg {
+    fill: var(--color-text-default)!important;
+} 
+
 .theme-default .light-mode-icon {
     display: none;
 }
 .theme-blackout .light-mode-icon {
     display: flex;
+}
+
+.theme-blackout .light-mode-icon svg {
     fill: var(--color-text-default)!important;
 }

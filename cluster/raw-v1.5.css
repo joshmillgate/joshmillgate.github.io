@@ -590,6 +590,7 @@ p.notion-callout__content > span > span strong {
     justify-content: center !important;
     font-size: 14px !important;
     opacity: 0.6 !important;
+    flex-direction: column!important;
 }
 .notion-collection-card__content  {
   padding-bottom: 0px!important;

@@ -761,7 +761,7 @@ margin-top: 5px!important;
     display: flex;
 }
 
-.theme-default .dark-mode-icon svg {
+.theme-default .dark-mode-icon svg, .theme-default .super-navbar__button  svg {
     fill: var(--color-text-default)!important;
 } 
 
@@ -772,6 +772,6 @@ margin-top: 5px!important;
     display: flex;
 }
 
-.theme-blackout .light-mode-icon svg {
+.theme-blackout .light-mode-icon svg, .theme-blackout .super-navbar__button  svg {
     fill: var(--color-text-default)!important;
 }

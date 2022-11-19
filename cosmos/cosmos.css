@@ -761,9 +761,17 @@ margin-top: 5px!important;
     display: flex;
 }
 
-.theme-default .dark-mode-icon svg, .theme-default .super-navbar__button  svg {
+.theme-default .dark-mode-icon svg, .theme-default .super-navbar__button svg {
     fill: var(--color-text-default)!important;
 } 
+
+.theme-blackout .super-navbar__button {
+stroke: var(--color-text-default)!important;
+}
+
+.theme-default .super-navbar__button {
+    stroke: var(--color-text-default)!important;
+    }
 
 .theme-default .light-mode-icon {
     display: none;
@@ -772,6 +780,12 @@ margin-top: 5px!important;
     display: flex;
 }
 
-.theme-blackout .light-mode-icon svg, .theme-blackout .super-navbar__button  svg {
+.theme-blackout .light-mode-icon svg, .theme-blackout .super-navbar__button svg {
     fill: var(--color-text-default)!important;
 }
+
+/*  fixes */
+.super-navbar__menu-wrapper .enter-done {
+    position: absolute!important;
+}
+

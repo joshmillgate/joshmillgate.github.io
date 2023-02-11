@@ -89,8 +89,6 @@
 }
 
 body {
-  font-family: 'Cambon' !important;
-  background: var(--color-bg-default) !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
   text-rendering: optimizeLegibility !important;

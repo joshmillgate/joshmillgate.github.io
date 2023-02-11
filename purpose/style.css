@@ -82,7 +82,10 @@ main {
     --color-border-default: #E3DFDD !important;
     --column-spacing: 10px !important;
     --primary-font: 'Cambon' !important;
-    --secondary-font: 'Inter' !important
+    --secondary-font: 'Inter' !important;
+    --scrollbar-background-color: #EBE7E5;
+    --scrollbar-thumb-color: #FCB38D;
+    --scrollbar-border-color: #EBE7E5
 }
 
 .notion-divider {
@@ -155,7 +158,9 @@ main {
 .super-navbar {
     -webkit-backdrop-filter: blur(15px) !important;
     backdrop-filter: blur(15px) !important;
-    background: rgba(235, 231, 229, .8) !important
+    background: rgba(235, 231, 229, .8) !important;
+    z-index: 99999 !important;
+    font-family: var(--primary-font) !important
 }
 
 .super-navbar__menu {

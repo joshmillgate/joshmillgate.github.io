@@ -98,6 +98,7 @@ h1.notion-heading {
     border-radius: 50px!important;
     opacity: .7!important;
     transition: opacity .15s ease-in-out!important;
+    margin-right: 4px!important;
 }
 .notion-collection-card .notion-property__title span {
     font-size: 22px!important;

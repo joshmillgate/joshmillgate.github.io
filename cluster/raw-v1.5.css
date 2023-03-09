@@ -35,6 +35,9 @@
     --color-bg-purple: var(--color-purple) !important;
     --color-bg-pink: var(--color-pink) !important;
     --color-bg-red: var(--color-red) !important;
+    --scrollbar-background-color: var(--color-bg-default)!important;
+    --scrollbar-thumb-color: var(--color-text-default)!important;
+    --scrollbar-border-color: var(--color-bg-default)!important;
 }
 body {
     -webkit-font-smoothing: antialiased !important;

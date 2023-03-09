@@ -925,3 +925,8 @@ div.code-toolbar > .toolbar > .toolbar-item > span:hover {
   justify-content: center!important;
   align-items: center!important;
 }
+
+
+.page-active {
+    color: var(--color-primary)!important;
+}

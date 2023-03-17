@@ -3,7 +3,6 @@
     --max-width: 600px !important;
     --border-radius: 15px !important;
     /**/
-    --color-card-bg: var(--color-bg-default);
     --color-bg-default: #f6f4f4 !important;
     --theme-gradient: linear-gradient(to bottom, rgba(246, 244, 244, 0), rgba(246, 244, 244, 1) 98%) !important;
     --color-text-default: #353942 !important;
@@ -26,7 +25,6 @@
     --color-bg-default: #000000 !important;
     --color-text-default: #f2f2f2 !important;
     --color-border-default: #242424 !important;
-    --color-card-bg: var(--color-bg-default);
     --color-hover-default: #111111 !important;
     --color-bg-glass-default: rgb(255 255 255/3%) !important;
     --theme-gradient: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 98%) !important;
@@ -350,6 +348,7 @@ h3.notion-heading {
     box-shadow: none !important;
     border-radius: var(--border-radius) !important;
     border: 1px solid var(--color-border-default) !important;
+    background: transparent!important;
 }
 
 .notion-collection-card:hover {

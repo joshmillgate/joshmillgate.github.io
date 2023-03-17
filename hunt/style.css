@@ -2,6 +2,7 @@
     --primary-color: #202B3F;
     --color-text-default: #202B3F;
     --color-bg-default:#FBFCFF;
+    --color-border-default: #e3e4f0!important;
     --button-bg-color: #202B3F!important;
     --button-text-color: #ffffff!important;
     --mobile-menu-background-color: #FFFFFF;
@@ -21,6 +22,7 @@
     --button-bg-color: #36507e!important;
     --button-text-color: #f2f2f2!important;
     --color-bg-default: #272b33!important;
+    --color-border-default: #46474e!important;
 }
 
 body {
@@ -190,7 +192,7 @@ h1.notion-heading {
     border-radius: 20px!important;
     padding: 20px!important;
     transition: background .15s ease-in-out!important;
-    border: 1px solid var(--list-item-border)!important;
+    border: 1px solid var(--color-border-default)!important;
 }
 .notion-collection-list__item:hover {
     background: var(--list-item-hover)!important;

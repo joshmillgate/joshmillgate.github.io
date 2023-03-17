@@ -1,10 +1,10 @@
 :root {
     --primary-color: #202B3F;
-    --color-text-default: #202B3F!important;
-    --color-bg-default:#FBFCFF!important;
+    --color-text-default: #202B3F;
+    --color-bg-default:#FBFCFF;
     --button-bg-color: #202B3F!important;
     --button-text-color: #ffffff!important;
-    --mobile-menu-background-color: #FFFFFF!important;
+    --mobile-menu-background-color: #FFFFFF;
     --list-item-border: #E1E9FF;
     --list-item-hover: #F1F5FF;
     --page-width: 1280px;

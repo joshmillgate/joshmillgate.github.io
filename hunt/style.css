@@ -373,13 +373,6 @@ h1.notion-heading {
         margin-left: -10px!important;
         justify-content: center!important;
    }
-    .notion-dropdown__option.active-filter {
-        background: var(--button-bg-color)!important;
-        border:var(--button-bg-color)!important;
-    }
-    .notion-dropdown__option.active-filter p {
-        color: var(--button-text-color)!important;
-    }
 }
 
 
@@ -466,4 +459,13 @@ h1.notion-heading {
 
 .notion-collection-card__content .notion-property__text {
     max-width: 100%!important;
+}
+
+.notion-dropdown__option.active {
+    background: var(--button-bg-color)!important;
+    border:var(--button-bg-color)!important;
+}
+
+.notion-dropdown__option.active p {
+    color: var(--button-text-color)!important;
 }

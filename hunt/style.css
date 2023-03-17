@@ -2,6 +2,8 @@
     --primary-color: #202B3F;
     --color-text-default: #202B3F;
     --color-bg-default:#FBFCFF;
+    --button-bg-color: #202B3F!important;
+    --button-text-color: #ffffff!important;
     --mobile-menu-background-color: #FFFFFF;
     --list-item-border: #E1E9FF;
     --list-item-hover: #F1F5FF;
@@ -32,8 +34,6 @@ body {
 }
 .super-navbar__cta {
     padding: 12px 20px!important;
-    background: var(--button-bg-color)!important;
-    color: var(--button-text-color);
     border-radius: var(--button-rounding)!important;
 }
 .super-navbar.scrolled {

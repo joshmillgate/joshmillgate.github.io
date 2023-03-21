@@ -397,7 +397,7 @@ body *:not(strong) {
 .notion-collection-card {
     /*box-shadow: 2px 6px 10px -3px rgba(0, 0, 0, 0.05), 12px 10px 41px -21px rgba(0, 0, 0, 0.03) !important;*/
     box-shadow: none !important;
-    border: 1px solid var(--border-color-default)!important;
+    border: 1px solid var(--color-border-default)!important;
     transition: box-shadow .2s ease-out, border .2s ease-in-out !important;
 
 }

@@ -347,7 +347,7 @@ h1.notion-heading {
     padding: 12px 18px!important;
     border-radius: var(--button-rounding)!important;
     opacity: 1!important;
-    font-weight: 300!important;
+    font-weight: 400!important;
     display: inline-flex!important;
     justify-content: center!important;
     transition: background .2s ease-in-out!important;

@@ -439,14 +439,11 @@ body *:not(strong) {
 
 .notion-collection-list__item .notion-property__title .notion-semantic-string>span {
     border-bottom: 0px !important;
+    white-space: pre-wrap !important;
 }
 
 .notion-collection-list__item:hover {
     background: var(--secondary-bg) !important;
-}
-
-.notion-collection-list__item .notion-property__title .notion-semantic-string {
-    white-space: pre-wrap !important;
 }
 
 .notion-page__property-name>span {

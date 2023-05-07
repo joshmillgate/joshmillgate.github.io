@@ -1,38 +1,3 @@
-/* OPTIONS */
-#page-index .notion-header {
-  display: none !important;
-}
-
-/* DATABASE CARD*/
-/* SHOW CONTENT ON HOVER */
-/*.notion-collection-card__content {*/
-/*    position: absolute!important;*/
-/*    bottom: -50px!important;*/
-/*    opacity: 0!important;*/
-/*    transition: bottom .18s ease-in-out, opacity .18s ease-in-out!important;*/
-/*    background: var(--card-content-bg-color)!important;*/
-/*    backdrop-filter: blur(3px)!important;*/
-/*    border-radius: calc(var(--collection-card-border-radii) - 5px)!important;*/
-/*    width: calc(100% - 24px)!important;*/
-/*    margin: 12px!important;*/
-/*    border: 1px solid var(--color-border-default)!important;*/
-/*}*/
-
-/*.notion-collection-card:hover .notion-collection-card__content {*/
-/*  opacity: 1!important;*/
-/*  bottom: 0!important;*/
-/*}*/
-
-.theme-dark .notion-code code {
-  color: var(--color-text-default) !important;
-}
-
-.parent-page__posts .max-width,
-.parent-page__blog .max-width,
-#page-blocks .max-width {
-  --layout-max-width: 900px !important;
-}
-
 /* VARIABLES */
 :root {
   --select-highlight-color: rgba(253, 215, 99, .4);
@@ -62,6 +27,21 @@
   --color-border-default: rgba(204, 204, 204, .4) !important;
   --navbar-background-color: rgba(246, 246, 246, .8) !important;
   --color-ui-hover-bg: #F2F2F2 !important;
+}
+
+/* OPTIONS */
+#page-index .notion-header {
+  display: none !important;
+}
+
+.theme-dark .notion-code code {
+  color: var(--color-text-default) !important;
+}
+
+.parent-page__posts .max-width,
+.parent-page__blog .max-width,
+#page-blocks .max-width {
+  --layout-max-width: 900px !important;
 }
 
 /* THEME SPECIFIC */

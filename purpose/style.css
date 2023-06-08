@@ -158,7 +158,7 @@ main {
     -webkit-backdrop-filter: blur(15px) !important;
     backdrop-filter: blur(15px) !important;
     background: rgba(235, 231, 229, .8) !important;
-    z-index: 99999 !important;
+    z-index: 100 !important;
     font-family: var(--primary-font) !important
 }
 

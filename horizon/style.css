@@ -192,6 +192,7 @@ h3.notion-heading * {
 @media all and (max-width: 1200px) { 
   .notion-collection-gallery.medium {
     grid-template-columns: 1fr 1fr 1fr!important;
+    max-height: 1280px!important;
   }
   
   .notion-collection-gallery.medium .notion-collection-card:last-of-type {

@@ -424,7 +424,7 @@ h3.notion-heading * {
   gap: 8px !important
 }
 
-.notion-property__date {
+.notion-property__date .date {
   opacity: .6;
 }
 

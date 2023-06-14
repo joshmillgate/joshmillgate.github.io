@@ -531,6 +531,7 @@ h3 {
 
 .notion-toggle__content {
     padding-inline-start: 18px !important;
+    padding-inline-end: 18px !important;
 }
 
 .notion-toggle__trigger {

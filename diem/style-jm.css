@@ -208,7 +208,7 @@ body *:not(strong) {
         justify-content: start !important;
         border-radius: 5px !important;
         height: auto !important;
-        padding: 8px 12px !important;
+        padding: 8px 4px !important;
         border: 1px solid transparent !important;
         background: transparent !important;
         width: 100% !important;

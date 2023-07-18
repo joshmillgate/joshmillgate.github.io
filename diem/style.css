@@ -160,10 +160,7 @@ body *:not(strong) {
         flex: 0 0 auto !important;
         border-right: var(--layout-border) solid var(--color-border-default) !important;
         position: sticky !important;
-        position: relative !important;
     }
-
-
 
     .super-navbar__content {
         flex-direction: column !important;

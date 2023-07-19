@@ -167,7 +167,7 @@ body *:not(strong) {
     }
 
     .super-navbar__logo {
-        padding: 8px 4px !important;
+        padding: 8px 12px !important;
         max-height: 50px !important;
         flex-grow: 0 !important;
     }
@@ -208,7 +208,7 @@ body *:not(strong) {
         justify-content: start !important;
         border-radius: 5px !important;
         height: auto !important;
-        padding: 8px 4px !important;
+        padding: 8px 12px !important;
         border: 1px solid transparent !important;
         background: transparent !important;
         width: 100% !important;

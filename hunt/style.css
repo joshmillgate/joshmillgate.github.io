@@ -12,7 +12,7 @@
     --button-rounding: 50px!important;
     --header-title-align: center!important;
     --card-radius: 36px!important;
-    --header-gradient: linear-gradient(to bottom, rgba(251, 252, 255, 0), rgba(251, 252, 255, 1) 98%)!important;
+    --header-gradient: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 98%)!important;
     --navbar-bg: rgba(255, 255, 255, .6)!important;
 }
 

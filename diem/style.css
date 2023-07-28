@@ -179,7 +179,6 @@ body *:not(strong) {
         max-height: auto !important;
         height: auto!important;
         flex-grow: 0 !important;
-        width: 50px;
     }
 
     .super-navbar__item-list {

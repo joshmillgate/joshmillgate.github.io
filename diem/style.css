@@ -176,7 +176,7 @@ body *:not(strong) {
 
     .super-navbar__logo {
         padding: 8px 4px !important;
-        max-height: 50px !important;
+        max-height: auto !important;
         flex-grow: 0 !important;
     }
 

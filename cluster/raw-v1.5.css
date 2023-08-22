@@ -64,13 +64,9 @@ body {
   }
 .notion-navbar {
     display: flex !important;
-    height: 70px !important;
     border-bottom: 1px solid var(--color-border-default) !important;
     box-shadow: none !important;
     z-index: 50 !important;
-}
-.super-navbar {
-    height: 70px!important;
 }
 .super-navbar {
     border-bottom: 1px solid var(--color-border-default)!important;

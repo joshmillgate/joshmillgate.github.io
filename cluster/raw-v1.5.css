@@ -538,7 +538,7 @@ p.notion-callout__content > span > span strong {
     padding: 20px !important;
     margin-left: 0 !important;
     min-width: 130px !important;
-    height: calc(100vh - 70px) !important;
+    height: calc(100vh - var(--navbar-height)) !important;
     flex-shrink: 0 !important;
     position: sticky !important;
     position: -webkit-sticky !important;

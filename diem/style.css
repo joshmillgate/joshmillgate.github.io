@@ -825,3 +825,9 @@ h3 {
 .super-navbar__content>div:has(.super-navbar__item-list) {
     height: auto !important;
 }
+
+.notion-collection-card__content .notion-property__select {
+    display: flex!important;
+    flex-wrap: wrap!important;
+    overflow: visible!important;
+}

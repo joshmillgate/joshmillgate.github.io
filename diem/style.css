@@ -314,6 +314,7 @@ body *:not(strong) {
 
 .notion-header__content .notion-header__title-wrapper {
     margin-bottom: 32px !important;
+    z-index: 1!important;
 }
 
 .notion-header__content {

@@ -31,6 +31,20 @@
   }
 }
 
+/* new */
+
+.super-navbar {
+  flex-direction: column!important;
+  justify-content: center!important;
+  padding-bottom: 200px!important;
+}
+
+.super-navbar > div:first-of-type {
+  /*background: red!important;*/
+  height: auto!important;
+  margin-bottom: 16px!important;
+}
+
 /* CTA BUTTON */
 
 .notion-root .notion-text strong .notion-link,

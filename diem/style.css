@@ -157,6 +157,7 @@ body *:not(strong) {
         min-width: 12vw !important;
         height: 100vh !important;
         /*padding: 16px!important;*/
+        display: flex!important;
         flex: 0 0 auto !important;
         border-right: var(--layout-border) solid var(--color-border-default) !important;
         position: sticky !important;

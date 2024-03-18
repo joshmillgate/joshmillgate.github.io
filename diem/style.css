@@ -93,7 +93,7 @@ body *:not(strong) {
     margin: 0 auto !important;
 }
 
-.super-content {
+.notion-root {
     padding-top: 4vh !important;
     padding-bottom: 12vh !important;
 }
@@ -622,6 +622,33 @@ h3 {
     color: var(--cta-text-hover-color) !important;
     opacity: 1 !important;
 
+}
+
+/* NEW */
+
+.notion-root .notion-text strong .notion-link,
+.notion-root .notion-text .notion-link strong {
+  padding: 10px 14px !important;
+  border-radius: var(--cta-border-radii) !important;
+  opacity: 1 !important;
+  font-weight: 100 !important;
+  display: inline-flex !important;
+  justify-content: center !important;
+  transition: background .2s ease-in-out !important;
+  background: var(--cta-bg-color) !important;
+  color: var(--cta-text-color) !important;
+  margin: -2px !important;
+  margin-top: 8px !important;
+  border: 1px solid var(--color-border-default) !important;
+  transition: all .2s ease-in-out !important;
+}
+
+.notion-root .notion-text strong .notion-link:hover,
+.notion-root .notion-text .notion-link strong:hover {
+  background: var(--cta-bg-hover-color) !important;
+  border: 1px solid var(--cta-bg-hover-color) !important;
+  color: var(--cta-text-hover-color) !important;
+  opacity: 1 !important;
 }
 
 

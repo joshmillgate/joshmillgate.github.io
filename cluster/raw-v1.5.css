@@ -85,6 +85,12 @@ body {
 .notion-breadcrumb__item:not(:first-child) {
     display: none !important;
 }
+
+.notion-root {
+padding-left: 0px!important;
+padding-right: 0px!important;
+}
+
 .notion-root > .notion-quote {
     position: fixed !important;
     right: 0 !important;
@@ -439,15 +445,15 @@ p.notion-callout__content > span > span strong {
 .notion-breadcrumb__item:hover {
     background: 0 0 !important;
 }
-.notion-text.bg-blue > p,
-.notion-text.bg-gray > p,
-.notion-text.bg-green > p,
-.notion-text.bg-orange > p,
-.notion-text.bg-purple > p,
-.notion-text.bg-red > p {
+.notion-text.bg-blue,
+.notion-text.bg-gray,
+.notion-text.bg-green,
+.notion-text.bg-orange,
+.notion-text.bg-purple,
+.notion-text.bg-red {
     color: var(--color-text-light) !important;
     font-weight: 500 !important;
-    padding-left: 10px !important;
+    padding: 10px !important;
 }
 .notion-text.bg-brown > p,
 .notion-text.bg-pink > p,
@@ -738,6 +744,7 @@ th {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
+    padding: 20px!important;
 }
 .notion-collection-gallery.small  .notion-collection-card__cover.small div {
     background: var(--color-primary) !important;

@@ -160,6 +160,9 @@ padding-right: 0px!important;
 .notion-page__title .notion-semantic-string span {
     line-height: 1 !important;
 }
+.notion-page:hover {
+    background: transparent!important;
+}
 .notion-page > div:hover {
     background: 0 0 !important;
 }

@@ -429,6 +429,22 @@ h3.notion-heading {
     color: var(--color-cta-text) !important;
 }
 
+/* new button */
+
+.notion-root .notion-text strong .notion-link,
+.notion-root .notion-text .notion-link strong {
+    margin: 20px 0px !important;
+    padding: 10px 15px !important;
+    border-radius: var(--border-radius) !important;
+    opacity: 1 !important;
+    font-weight: 500 !important;
+    display: inline-flex !important;
+    justify-content: center !important;
+    transition: background .2s ease-in-out !important;
+    background: var(--color-cta-background) !important;
+    color: var(--color-cta-text) !important;
+}
+
 .notion-caption {
     color: var(--color-text-default) !important;
     opacity: .5 !important;

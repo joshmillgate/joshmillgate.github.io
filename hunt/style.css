@@ -452,6 +452,7 @@ h1.notion-heading {
 
 .notion-root .notion-text strong .notion-link,
 .notion-root .notion-text .notion-link strong {
+    border: 0!important;
     margin: 20px -5px!important;
     padding: 12px 18px!important;
     border-radius: var(--button-rounding)!important;
@@ -462,7 +463,6 @@ h1.notion-heading {
     transition: background .2s ease-in-out!important;
     background: var(--button-bg-color)!important;
     color: var(--button-text-color)!important;
-    border: 0!important;
 }
 
 .notion-link {

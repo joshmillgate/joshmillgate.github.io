@@ -46,6 +46,10 @@
     --cover-gradient: linear-gradient(to bottom, rgba(255, 255, 255, 0), white 90%) !important;
 }
 
+.super-navbar.hidden {
+    display: none!important;
+}
+
 .theme-dark .notion-code code {
     color: var(--color-text-default) !important;
 }

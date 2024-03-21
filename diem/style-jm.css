@@ -47,6 +47,10 @@
     --navbar-width: 240px !important;
 }
 
+.super-navbar.hidden {
+    display: none!important;
+}
+
 .theme-dark .notion-code code {
     color: var(--color-text-default) !important;
 }

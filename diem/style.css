@@ -106,11 +106,6 @@ body *:not(strong) {
     max-width: 100% !important;
 }
 
-.super-content-wrapper {
-    max-width: var(--container-width) !important;
-}
-
-
 /* DESKTOP ONLY */
 @media all and (min-width: 861px) {
     .super-navbar__content {

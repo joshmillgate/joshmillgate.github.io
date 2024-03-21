@@ -69,6 +69,7 @@ body {
 }
 .super-navbar {
     border-bottom: 1px solid var(--color-border-default)!important;
+    display: flex!important;
   }
 .super-navbar__menu-open {
     display: none!important;

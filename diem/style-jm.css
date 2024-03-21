@@ -95,6 +95,7 @@ body *:not(strong) {
 
 .super-root {
     margin: 0 auto !important;
+    width: var(--layout-max-width)!important;
 }
 
 .notion-root {

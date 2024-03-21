@@ -119,6 +119,7 @@ body *:not(strong) {
     .super-content-wrapper {
         flex-grow: 1!important;
         border-right: var(--layout-border) solid var(--color-border-default) !important;
+        border-left: var(--layout-border) solid var(--color-border-default) !important;
     }
 
     .super-content {
@@ -144,7 +145,6 @@ body *:not(strong) {
         flex-direction: column !important;
         box-shadow: none !important;
         background: transparent !important;
-        border-left: var(--layout-border) solid var(--color-border-default) !important;
         padding: 24px !important;
     }
 

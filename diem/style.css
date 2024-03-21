@@ -131,6 +131,7 @@ body *:not(strong) {
 
     .super-content-wrapper {
         border-right: var(--layout-border) solid var(--color-border-default) !important;
+        border-left: var(--layout-border) solid var(--color-border-default) !important;
     }
 
     .super-footer {
@@ -159,7 +160,6 @@ body *:not(strong) {
         /*padding: 16px!important;*/
         display: flex!important;
         flex: 0 0 auto !important;
-        border-right: var(--layout-border) solid var(--color-border-default) !important;
         position: sticky !important;
         flex-direction: column!important;
     }

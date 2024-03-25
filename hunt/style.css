@@ -465,6 +465,7 @@ h1.notion-heading {
     transition: background .2s ease-in-out!important;
     background: var(--button-bg-color)!important;
     color: var(--button-text-color)!important;
+    text-decoration: none!important;
 }
 
 .notion-link {

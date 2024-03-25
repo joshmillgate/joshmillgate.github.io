@@ -378,6 +378,7 @@ h1.notion-heading {
     transition: background .6s ease, border .1s ease-in!important;
     background: #151618!important;
     color: white!important;
+    text-decoration: none!important;
 }
 
 .notion-link {

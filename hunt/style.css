@@ -393,7 +393,7 @@ h1.notion-heading {
 .notion-header__cover:after {
       content: ""!important;
       position: absolute!important;
-      z-index: 1!important;
+      z-index: 0!important;
       bottom: -2px!important;
       left: 0!important;
       background-image: var(--header-gradient)!important;

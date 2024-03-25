@@ -83,6 +83,9 @@ h1.notion-heading {
     padding: 0px!important;
     margin-top: 20px!important;
     margin-bottom: 10px!important;
+    font-size: 22px!important;
+    font-weight: 600!important;
+    letter-spacing: -.5px!important;
 }
 .notion-collection-card__content {
     padding: 0px!important;
@@ -100,11 +103,7 @@ h1.notion-heading {
     transition: opacity .15s ease-in-out!important;
     margin-right: 4px!important;
 }
-.notion-collection-card .notion-property__title span {
-    font-size: 22px!important;
-    font-weight: 600!important;
-    letter-spacing: -.5px!important;
-}
+
 .notion-collection-card:hover {
     background: none!important;
     cursor: pointer!important;

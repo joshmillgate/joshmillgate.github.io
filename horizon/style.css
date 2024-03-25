@@ -478,6 +478,31 @@ h3.notion-heading * {
   opacity: 1 !important;
 }
 
+/* NEW 3.1 */
+
+.notion-root .notion-text strong .notion-link,
+.notion-root .notion-text .notion-link strong {
+  padding: 8px 12px !important;
+  border-radius: var(--cta-border-radii) !important;
+  opacity: 1 !important;
+  font-weight: 100 !important;
+  display: inline-flex !important;
+  justify-content: center !important;
+  transition: background .2s ease-in-out !important;
+  background: var(--color-bg-default) !important;
+  color: var(--color-text-default) !important;
+  margin: -2px !important;
+  border: 1px solid var(--color-text-default) !important;
+  transition: background .2s ease-in-out, color .2s ease-in-out, opacity .2s ease-in-out !important;
+}
+
+.notion-root .notion-text strong .notion-link:hover,
+.notion-root .notion-text .notion-link strong:hover {
+  background: var(--color-text-default) !important;
+  color: var(--color-bg-default) !important;
+  opacity: 1 !important;
+}
+
 /* FOOTER */
 .super-footer {
   border-top: 1px solid var(--color-border-default) !important;

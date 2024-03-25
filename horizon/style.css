@@ -353,6 +353,10 @@ h3.notion-heading * {
   margin-top: 0 !important;
 }
 
+.notion-collection-card picture {
+  height: 100%!important;
+}
+
 .notion-collection-card__property span .date {
   color: var(--color-bg-default) !important;
 }

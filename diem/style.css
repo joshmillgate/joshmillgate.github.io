@@ -102,14 +102,21 @@ body *:not(strong) {
     padding-bottom: 12vh !important;
 }
 
-.super-content.max-width {
-    max-width: 100% !important;
-}
-
 /* DESKTOP ONLY */
 @media all and (min-width: 861px) {
     .super-navbar__content {
         height: 90vh !important;
+    }
+
+    .super-content-wrapper {
+        flex-grow: 0!important;
+        width: auto!important;
+    }
+
+    .notion-header__title-wrapper {
+        max-width: var(--layout-max-width)!important;
+        margin-left: auto!important;
+        margin-right: auto!important;
     }
 
     .super-navbar__theme-toggle {

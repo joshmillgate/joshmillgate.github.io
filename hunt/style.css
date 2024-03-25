@@ -141,7 +141,7 @@ h1.notion-heading {
     opacity: .7!important;
     transition: opacity .15s ease-in-out!important;
 }
-.notion-collection-card .notion-property__title span {
+.notion-collection-card .notion-property__title span, .notion-collection-card .notion-property__title {
     font-size: 22px!important;
     font-weight: 600!important;
     letter-spacing: -.5px!important;

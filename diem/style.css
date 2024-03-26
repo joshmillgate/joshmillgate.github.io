@@ -108,6 +108,11 @@ body *:not(strong) {
         height: 90vh !important;
     }
 
+    .super-content {
+        width: 750px!important;
+        max-width: 100%!important;
+    }
+
     .super-content-wrapper {
         flex-grow: 0!important;
         width: auto!important;

@@ -508,7 +508,8 @@ p.notion-callout__content > span > span strong {
 .notion-root > .notion-column-list > .notion-column:first-child .notion-text {
     min-height: auto !important;
 }
-.notion-root > .notion-column-list > .notion-column:first-child .notion-text p {
+.notion-root > .notion-column-list > .notion-column:first-child .notion-text p,
+.notion-root > .notion-column-list > .notion-column:first-child .notion-text {
     text-transform: uppercase !important;
     font-size: 12px !important;
     letter-spacing: 1px !important;

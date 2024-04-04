@@ -261,6 +261,10 @@ body *:not(strong) {
     .super-navbar__cta {
         margin-top: 8px !important;
     }
+
+    .notion-header__content {
+        padding: 0!importat;
+    }
 }
 
 /* END DESKTOP ONLY */
@@ -356,7 +360,6 @@ body *:not(strong) {
     bottom: 0 !important;
     max-width: var(--layout-max-width) !important;
     margin: 0 auto !important;
-    padding: 0px !important;
     width: var(--layout-max-width) !important;
 }
 
@@ -367,7 +370,7 @@ body *:not(strong) {
 .notion-header__cover:after {
     content: "";
     position: absolute;
-    z-index: 1;
+    z-index: 0;
     bottom: 0;
     left: 0;
     background-image: var(--cover-gradient) !important;

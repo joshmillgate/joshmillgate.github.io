@@ -263,7 +263,7 @@ body *:not(strong) {
     }
 
     .notion-header__content {
-        padding: 0!importat;
+        padding: 0!important;
     }
 }
 

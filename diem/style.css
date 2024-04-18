@@ -866,6 +866,7 @@ h3 {
 
 .super-navbar__content>div:has(.super-navbar__item-list) {
     height: auto !important;
+    max-height: unset!important;
 }
 
 .notion-collection-card__content .notion-property__select {

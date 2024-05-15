@@ -1,0 +1,353 @@
+/* Specific colors */
+.theme-light {
+    /*BROWN*/
+    .notion-callout.bg-brown-light {
+      --cta-bg-color: #F5EEE9;
+      --cta-border-color: #E5D8CD;
+      --cta-bg-color-hover: #E5D8CD;
+      color: #4B3B2D!important;
+      color: color(display-p3 0.2843 0.232 0.1838)!important;
+      border: 1px solid #FFFDF8!important;
+      border: 1px solid color(display-p3 1 0.993 0.975)!important;
+      background: radial-gradient(109.38% 108.15% at 8.82% 0%, #EEE3DC 0%, #FFF 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, #FFF 0%, #FAFEFF 100%)!important;
+      background: radial-gradient(109.38% 108.15% at 8.82% 0%, color(display-p3 0.9267 0.89 0.8643) 0%, color(display-p3 1 1 1 / 0.00) 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, color(display-p3 1 1 1) 0%, color(display-p3 0.9836 0.9941 1) 100%)!important;
+    }
+    
+    /*BROWN ICON*/
+    .notion-callout.bg-brown-light .notion-callout__icon {
+      border: 1px solid #F3ECE7!important;
+      border: 1px solid color(display-p3 0.9487 0.9254 0.9084)!important;
+      background: #EBE3D8!important;
+      background: color(display-p3 0.9175 0.891 0.8513)!important;
+      box-shadow: 16px 11px 5px 0px #BD947D, 10px 7px 5px 0px rgba(189, 148, 125, 0.01), 6px 4px 4px 0px rgba(189, 148, 125, 0.05), 3px 2px 3px 0px rgba(189, 148, 125, 0.09), 1px 0px 2px 0px rgba(189, 148, 125, 0.10);
+      box-shadow: 16px 11px 5px 0px color(display-p3 0.7176 0.5882 0.502 / 0.00), 10px 7px 5px 0px color(display-p3 0.7176 0.5882 0.502 / 0.01), 6px 4px 4px 0px color(display-p3 0.7176 0.5882 0.502 / 0.05), 3px 2px 3px 0px color(display-p3 0.7176 0.5882 0.502 / 0.09), 1px 0px 2px 0px color(display-p3 0.7176 0.5882 0.502 / 0.10)!important;
+    }
+    
+    /*GRAY*/
+    .notion-callout.bg-gray-light {
+      --cta-bg-color: #F4F3F4!important;
+      --cta-border-color: #D5D5D5!important;
+      --cta-bg-color-hover: #D5D5D5!important;
+      color: #464646!important;
+      color: color(display-p3 0.274 0.274 0.274)!important;
+      border: 1px solid #FFFDF8!important;
+      border: 1px solid color(display-p3 1 0.993 0.975)!important;
+      background: radial-gradient(109.38% 108.15% at 8.82% 0%, #E5E5E5 0%, #FFF 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, #FFF 0%, #FEFCFF 100%)!important;
+      background: radial-gradient(109.38% 108.15% at 8.82% 0%, color(display-p3 0.8999 0.8999 0.8999) 0%, color(display-p3 1 1 1 / 0.00) 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, color(display-p3 1 1 1) 0%, color(display-p3 0.9954 0.9896 1) 100%)!important;
+    }
+    
+    /*GRAY ICON*/
+    .notion-callout.bg-gray-light .notion-callout__icon {
+      border: 1px solid #FFF!important;
+      border: 1px solid color(display-p3 1 1 1)!important;
+      background: #EDEDED!important;
+      background: color(display-p3 0.9279 0.9279 0.9279)!important;
+      box-shadow: 16px 11px 5px 0px #858585, 10px 7px 5px 0px rgba(133, 133, 133, 0.01), 6px 4px 4px 0px rgba(133, 133, 133, 0.05), 3px 2px 3px 0px rgba(133, 133, 133, 0.09), 1px 0px 2px 0px rgba(133, 133, 133, 0.10);
+      box-shadow: 16px 11px 5px 0px color(display-p3 0.5216 0.5216 0.5216 / 0.00), 10px 7px 5px 0px color(display-p3 0.5216 0.5216 0.5216 / 0.01), 6px 4px 4px 0px color(display-p3 0.5216 0.5216 0.5216 / 0.05), 3px 2px 3px 0px color(display-p3 0.5216 0.5216 0.5216 / 0.09), 1px 0px 2px 0px color(display-p3 0.5216 0.5216 0.5216 / 0.10);
+    }
+    
+    /*PINK*/
+    .notion-callout.bg-pink-light {
+      --cta-bg-color: #FEE9F4;
+      --cta-border-color: #FFC3D7;
+      --cta-bg-color-hover: #FFC3D7;
+      color: #610145;
+      color: color(display-p3 0.3458 0.0524 0.2636);
+      border: 1px solid #FFFDF8;
+      border: 1px solid color(display-p3 1 0.993 0.975);
+      background: radial-gradient(109.38% 108.15% at 8.82% 0%, #FEDFEE 0%, #FFF 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, #FFF 0%, #FEFCFF 100%);
+      background: radial-gradient(109.38% 108.15% at 8.82% 0%, color(display-p3 0.9765 0.8784 0.9314) 0%, color(display-p3 1 1 1 / 0.00) 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, color(display-p3 1 1 1) 0%, color(display-p3 0.9954 0.9896 1) 100%);
+    }
+    
+    /*PINK ICON*/
+    .notion-callout.bg-pink-light .notion-callout__icon {
+      border: 1px solid #FFF6FE;
+      border: 1px solid color(display-p3 1 0.9654 0.9945);
+      background: #FFE1F3;
+      background: color(display-p3 1 0.8889 0.9489);
+      box-shadow: 16px 11px 5px 0px #FF2A70, 10px 7px 5px 0px rgba(255, 42, 112, 0.01), 6px 4px 4px 0px rgba(255, 42, 112, 0.05), 3px 2px 3px 0px rgba(255, 42, 112, 0.09), 1px 0px 2px 0px rgba(255, 42, 112, 0.10);
+      box-shadow: 16px 11px 5px 0px color(display-p3 0.9686 0.2706 0.4471 / 0.00), 10px 7px 5px 0px color(display-p3 0.9686 0.2706 0.4471 / 0.01), 6px 4px 4px 0px color(display-p3 0.9686 0.2706 0.4471 / 0.05), 3px 2px 3px 0px color(display-p3 0.9686 0.2706 0.4471 / 0.09), 1px 0px 2px 0px color(display-p3 0.9686 0.2706 0.4471 / 0.10);
+    }
+    
+    /*YELLOW*/
+    .notion-callout.bg-yellow-light {
+      --cta-bg-color: #FFF6D2;
+      --cta-border-color: #F9DEAA;
+      --cta-bg-color-hover: #F9DEAA;
+      color: #5B3800;
+      color: color(display-p3 0.3389 0.2259 0);
+      border: 1px solid #FFFDF8;
+      border: 1px solid color(display-p3 1 0.993 0.975);
+      background: radial-gradient(109.38% 108.15% at 8.82% 0%, rgba(255, 162, 0, 0.20) 0%, rgba(255, 255, 255, 0.20) 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, #FFF 0%, #FFFEFB 100%);
+      background: radial-gradient(109.38% 108.15% at 8.82% 0%, color(display-p3 0.9804 0.6549 0 / 0.20) 0%, color(display-p3 1 1 1 / 0.00) 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, color(display-p3 1 1 1) 0%, color(display-p3 1 0.9971 0.9867) 100%);
+    }
+    
+    /*YELLOW ICON*/
+    .notion-callout.bg-yellow-light .notion-callout__icon {
+      border: 1px solid #FFFDF5;
+      border: 1px solid color(display-p3 1 0.9924 0.9654);
+      background: #FFF6D2;
+      background: color(display-p3 1 0.9647 0.8392);
+      box-shadow: 16px 11px 5px 0px #EAA100, 10px 7px 5px 0px rgba(234, 161, 0, 0.01), 6px 4px 4px 0px rgba(234, 161, 0, 0.05), 3px 2px 3px 0px rgba(234, 161, 0, 0.09), 1px 0px 2px 0px rgba(234, 161, 0, 0.10);
+      box-shadow: 16px 11px 5px 0px color(display-p3 0.8745 0.6431 0.0039 / 0.00), 10px 7px 5px 0px color(display-p3 0.8745 0.6431 0.0039 / 0.01), 6px 4px 4px 0px color(display-p3 0.8745 0.6431 0.0039 / 0.05), 3px 2px 3px 0px color(display-p3 0.8745 0.6431 0.0039 / 0.09), 1px 0px 2px 0px color(display-p3 0.8745 0.6431 0.0039 / 0.10);
+    }
+    
+    /* ORANGE */
+    .notion-callout.bg-orange-light {
+      --cta-bg-color: #FFEEE4;
+      --cta-border-color: #F4D2BC;
+      --cta-bg-color-hover: #F4D2BC;
+      color: #4C2300;
+      color: color(display-p3 0.2776 0.1454 0.0235);
+      border-radius: 22px;
+      border: 1px solid #FFFDF8;
+      border: 1px solid color(display-p3 1 0.993 0.975);
+      background: radial-gradient(109.38% 108.15% at 8.82% 0%, #FFE6D7 0%, #FFF 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, #FFF 0%, #FAFEFF 100%);
+      background: radial-gradient(109.38% 108.15% at 8.82% 0%, color(display-p3 0.9843 0.9059 0.851) 0%, color(display-p3 1 1 1 / 0.00) 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, color(display-p3 1 1 1) 0%, color(display-p3 0.9836 0.9941 1) 100%);
+    }
+    
+    /*ORANGE ICON*/
+    .notion-callout.bg-orange-light .notion-callout__icon {
+      border: 1px solid #FFF1E7;
+      border: 1px solid color(display-p3 1 0.9476 0.9097);
+      background: #FFE8DA;
+      background: color(display-p3 0.9843 0.9137 0.8627);
+      box-shadow: 16px 11px 5px 0px #CB6B2D, 10px 7px 5px 0px rgba(203, 107, 45, 0.01), 6px 4px 4px 0px rgba(203, 107, 45, 0.05), 3px 2px 3px 0px rgba(203, 107, 45, 0.09), 1px 0px 2px 0px rgba(203, 107, 45, 0.10);
+      box-shadow: 16px 11px 5px 0px color(display-p3 0.7451 0.4392 0.2353 / 0.00), 10px 7px 5px 0px color(display-p3 0.7451 0.4392 0.2353 / 0.01), 6px 4px 4px 0px color(display-p3 0.7451 0.4392 0.2353 / 0.05), 3px 2px 3px 0px color(display-p3 0.7451 0.4392 0.2353 / 0.09), 1px 0px 2px 0px color(display-p3 0.7451 0.4392 0.2353 / 0.10);
+    }
+    
+    /*GREEN*/
+    .notion-callout.bg-green-light {
+      --cta-bg-color: #DEFEEC;
+      --cta-border-color: #B0EBCC;
+      --cta-bg-color-hover: #B0EBCC;
+      color: #083800;
+      color: color(display-p3 0.0939 0.2167 0.0361);
+      border: 1px solid #FFFDF8;
+      border: 1px solid color(display-p3 1 0.993 0.975);
+      background: radial-gradient(109.38% 108.15% at 8.82% 0%, #CEF5DF 0%, #FFF 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, #FFF 0%, #FAFEFF 100%);
+      background: radial-gradient(109.38% 108.15% at 8.82% 0%, color(display-p3 0.8376 0.9554 0.8785) 0%, color(display-p3 1 1 1 / 0.00) 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, color(display-p3 1 1 1) 0%, color(display-p3 0.9836 0.9941 1) 100%);
+    }
+    
+    /*GREEN ICON*/
+    .notion-callout.bg-green-light .notion-callout__icon {
+      border: 1px solid #F0FFF5;
+      border: 1px solid color(display-p3 0.9522 1 0.9627);
+      background: #DEFDEB;
+      background: color(display-p3 0.8954 0.9896 0.9268);
+      box-shadow: 16px 11px 5px 0px #00C16C, 10px 7px 5px 0px rgba(0, 193, 108, 0.01), 6px 4px 4px 0px rgba(0, 193, 108, 0.05), 3px 2px 3px 0px rgba(0, 193, 108, 0.09), 1px 0px 2px 0px rgba(0, 193, 108, 0.10);
+      box-shadow: 16px 11px 5px 0px color(display-p3 0.2353 0.7451 0.4549 / 0.00), 10px 7px 5px 0px color(display-p3 0.2353 0.7451 0.4549 / 0.01), 6px 4px 4px 0px color(display-p3 0.2353 0.7451 0.4549 / 0.05), 3px 2px 3px 0px color(display-p3 0.2353 0.7451 0.4549 / 0.09), 1px 0px 2px 0px color(display-p3 0.2353 0.7451 0.4549 / 0.10);
+    }
+    
+    /*RED*/
+    .notion-callout.bg-red-light {
+      --cta-bg-color: #FFF4F3;
+      --cta-border-color: #EBC4C2;
+      --cta-bg-color-hover: #EBC4C2;
+      color: #4E0002;
+      color: color(display-p3 0.2776 0.0235 0.0235);
+      border: 1px solid #FFEDEB !important;
+      border: 1px solid color(display-p3 1.000, 0.929, 0.922) !important;
+      background: radial-gradient(109.38% 108.15% at 8.82% 0%, #FFE8E6 0%, #FFF 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, #FFF 0%, #FFF 100%);
+      background: radial-gradient(109.38% 108.15% at 8.82% 0%, color(display-p3 0.9882 0.9137 0.9059) 0%, color(display-p3 1 1 1 / 0.00) 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, color(display-p3 1 1 1) 0%, color(display-p3 1 0.9984 0.9984) 100%);
+    }
+    
+    /*RED ICON*/
+    .notion-callout.bg-red-light .notion-callout__icon {
+      border: 1px solid #FFF6F6;
+      border: 1px solid color(display-p3 1 0.9654 0.9654);
+      background: #FFE8E6;
+      background: color(display-p3 0.9882 0.9137 0.9059);
+      box-shadow: 16px 11px 5px 0px #992824, 10px 7px 5px 0px rgba(153, 40, 36, 0.01), 6px 4px 4px 0px rgba(153, 40, 36, 0.05), 3px 2px 3px 0px rgba(153, 40, 36, 0.09), 1px 0px 2px 0px rgba(153, 40, 36, 0.10);
+      box-shadow: 16px 11px 5px 0px color(display-p3 0.5529 0.1922 0.1647 / 0.00), 10px 7px 5px 0px color(display-p3 0.5529 0.1922 0.1647 / 0.01), 6px 4px 4px 0px color(display-p3 0.5529 0.1922 0.1647 / 0.05), 3px 2px 3px 0px color(display-p3 0.5529 0.1922 0.1647 / 0.09), 1px 0px 2px 0px color(display-p3 0.5529 0.1922 0.1647 / 0.10);
+    }
+    
+    /*PURPLE*/
+    .notion-callout.bg-purple-light {
+      --cta-bg-color: #FAF3FE;
+      --cta-border-color: #EDC2FB;
+      --cta-bg-color-hover: #EDC2FB;
+      color: #43085C;
+      color: color(display-p3 0.2386 0.0524 0.3458);
+      border: 1px solid #FFFDF8;
+      border: 1px solid color(display-p3 1 0.993 0.975);
+      background: radial-gradient(109.38% 108.15% at 8.82% 0%, #F3DFFB 0%, #FFF 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, #FFF 0%, #FEFCFF 100%);
+      background: radial-gradient(109.38% 108.15% at 8.82% 0%, color(display-p3 0.9412 0.8784 0.9765) 0%, color(display-p3 1 1 1 / 0.00) 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, color(display-p3 1 1 1) 0%, color(display-p3 0.9954 0.9896 1) 100%);
+    }
+    
+    /*PURPLE ICON*/
+    .notion-callout.bg-purple-light .notion-callout__icon {
+      border: 1px solid #FEF6FF;
+    
+      border: 1px solid color(display-p3 0.991 0.9654 1);
+      background: #F3DFFB;
+      background: color(display-p3 0.9412 0.8784 0.9765);
+      box-shadow: 16px 11px 5px 0px #C93AFF, 10px 7px 5px 0px rgba(201, 58, 255, 0.01), 6px 4px 4px 0px rgba(201, 58, 255, 0.05), 3px 2px 3px 0px rgba(201, 58, 255, 0.09), 1px 0px 2px 0px rgba(201, 58, 255, 0.10);
+      box-shadow: 16px 11px 5px 0px color(display-p3 0.7255 0.2706 0.9686 / 0.00), 10px 7px 5px 0px color(display-p3 0.7255 0.2706 0.9686 / 0.01), 6px 4px 4px 0px color(display-p3 0.7255 0.2706 0.9686 / 0.05), 3px 2px 3px 0px color(display-p3 0.7255 0.2706 0.9686 / 0.09), 1px 0px 2px 0px color(display-p3 0.7255 0.2706 0.9686 / 0.10);
+    }
+    
+    /*BLUE*/
+    .notion-callout.bg-blue-light {
+      --cta-bg-color: #F1F6FC;
+      --cta-border-color: #B7D4DF;
+      --cta-bg-color-hover: #B7D4DF;
+      color: #003049;
+      color: color(display-p3 0.0235 0.1861 0.2776);
+      border: 1px solid #FFFDF8;
+      border: 1px solid color(display-p3 1 0.993 0.975);
+      background: radial-gradient(109.38% 108.15% at 8.82% 0%, #E0ECF4 0%, #FFF 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, #FFF 0%, #FAFEFF 100%);
+      background: radial-gradient(109.38% 108.15% at 8.82% 0%, color(display-p3 0.8863 0.9255 0.9529) 0%, color(display-p3 1 1 1 / 0.00) 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, color(display-p3 1 1 1) 0%, color(display-p3 0.9836 0.9941 1) 100%);
+    }
+    
+    /*BLUE ICON*/
+    .notion-callout.bg-blue-light .notion-callout__icon {
+      border: 1px solid #F5FBFF;
+      border: 1px solid color(display-p3 0.9654 0.9834 1);
+      background: #E0ECF4;
+      background: color(display-p3 0.8863 0.9255 0.9529);
+      box-shadow: 16px 11px 5px 0px #006694, 10px 7px 5px 0px rgba(0, 102, 148, 0.01), 6px 4px 4px 0px rgba(0, 102, 148, 0.05), 3px 2px 3px 0px rgba(0, 102, 148, 0.09), 1px 0px 2px 0px rgba(0, 102, 148, 0.10);
+      box-shadow: 16px 11px 5px 0px color(display-p3 0.1137 0.3922 0.5647 / 0.00), 10px 7px 5px 0px color(display-p3 0.1137 0.3922 0.5647 / 0.01), 6px 4px 4px 0px color(display-p3 0.1137 0.3922 0.5647 / 0.05), 3px 2px 3px 0px color(display-p3 0.1137 0.3922 0.5647 / 0.09), 1px 0px 2px 0px color(display-p3 0.1137 0.3922 0.5647 / 0.10);
+    }
+    }
+    
+    
+    /* DARK MODE */
+     
+      /*YELLOW*/
+      .theme-dark .notion-callout.bg-yellow-light {
+        --cta-bg-color: #362E08;
+        --cta-border-color: #4D3E00;
+        --cta-bg-color-hover: #4D3E00;
+        color: #FFECC3;
+        color: color(display-p3 1 0.9274 0.7821);
+        border: 1px solid #241407;
+        border: 1px solid color(display-p3 0.1311 0.0827 0.0342);
+        background: radial-gradient(109.38% 108.15% at 8.82% 0%, #4A3E00 0%, #171717 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, #282828 0%, #1A1510 100%);
+        background: radial-gradient(109.38% 108.15% at 8.82% 0%, color(display-p3 0.2836 0.2434 0.0322) 0%, color(display-p3 0.0916 0.0916 0.0916 / 0.00) 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, color(display-p3 0.1583 0.1583 0.1583) 0%, color(display-p3 0.1004 0.0835 0.0636) 100%);
+      }
+    
+      /*YELLOW ICON*/
+      .theme-dark .notion-callout.bg-yellow-light .notion-callout__icon {
+        border: 1px solid #604F14;
+        border: 1px solid color(display-p3 0.3668 0.3132 0.1234);
+        background: #4D3E00;
+        background: color(display-p3 0.2916 0.2449 0);
+        box-shadow: 16px 12px 6px 0px #000, 10px 8px 5px 0px rgba(0, 0, 0, 0.02), 6px 4px 4px 0px rgba(0, 0, 0, 0.05), 3px 2px 3px 0px rgba(0, 0, 0, 0.09), 1px 0px 2px 0px rgba(0, 0, 0, 0.11);
+        box-shadow: 16px 12px 6px 0px color(display-p3 0 0 0 / 0.00), 10px 8px 5px 0px color(display-p3 0 0 0 / 0.02), 6px 4px 4px 0px color(display-p3 0 0 0 / 0.05), 3px 2px 3px 0px color(display-p3 0 0 0 / 0.09), 1px 0px 2px 0px color(display-p3 0 0 0 / 0.11);
+      }
+    
+      /*GREEN*/
+      .theme-dark .notion-callout.bg-green-light {
+        --cta-bg-color: #052D1F;
+        --cta-border-color: #004629;
+        --cta-bg-color-hover: #004629;
+        color: #E6FAE8;
+        color: color(display-p3 0.9164 0.9788 0.9151);
+        border: 1px solid #061323;
+        border: 1px solid color(display-p3 0.0342 0.073 0.1311);
+        background: radial-gradient(109.38% 108.15% at 8.82% 0%, #003313 0%, #004216 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, #282828 0%, #0F141A 100%);
+        background: radial-gradient(109.38% 108.15% at 8.82% 0%, color(display-p3 0.0558 0.1979 0.087) 0%, color(display-p3 0.0656 0.2525 0.1068 / 0.00) 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, color(display-p3 0.1583 0.1583 0.1583) 0%, color(display-p3 0.0636 0.0761 0.1004) 100%);
+      }
+    
+      /*GREEN ICON*/
+      .theme-dark .notion-callout.bg-green-light .notion-callout__icon {
+        border: 1px solid #015E38;
+        border: 1px solid color(display-p3 0.003922 0.368627 0.219608);
+        background: #004C2E;
+        background: color(display-p3 0.0764 0.2932 0.1891);
+        box-shadow: 16px 11px 5px 0px #002235, 10px 7px 5px 0px rgba(0, 34, 53, 0.01), 6px 4px 4px 0px rgba(0, 34, 53, 0.05), 3px 2px 3px 0px rgba(0, 34, 53, 0.09), 1px 0px 2px 0px rgba(0, 34, 53, 0.10);
+        box-shadow: 16px 11px 5px 0px color(display-p3 0.0196 0.1294 0.2 / 0.00), 10px 7px 5px 0px color(display-p3 0.0196 0.1294 0.2 / 0.01), 6px 4px 4px 0px color(display-p3 0.0196 0.1294 0.2 / 0.05), 3px 2px 3px 0px color(display-p3 0.0196 0.1294 0.2 / 0.09), 1px 0px 2px 0px color(display-p3 0.0196 0.1294 0.2 / 0.10);
+      }
+    
+      /* ORANGE */
+      .theme-dark .notion-callout.bg-orange-light {
+        --cta-bg-color: #3A220A;
+        --cta-border-color: #573710;
+        --cta-bg-color-hover: #573710;
+        color: #FFE8DA;
+    
+        color: color(display-p3 0.9843 0.9137 0.8627);
+        border: 1px solid #241506 !important;
+        border: 1px solid color(display-p3 0.1311 0.0865 0.0342) !important;
+        background: radial-gradient(109.38% 108.15% at 8.82% 0%, #402607 0%, #171717 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, #282828 0%, #1A1510 100%);
+        background: radial-gradient(109.38% 108.15% at 8.82% 0%, color(display-p3 0.2368 0.152 0.0524) 0%, color(display-p3 0.0916 0.0916 0.0916 / 0.00) 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, color(display-p3 0.1583 0.1583 0.1583) 0%, color(display-p3 0.1004 0.0835 0.0636) 100%);
+      }
+    
+      /*ORANGE ICON*/
+      .theme-dark .notion-callout.bg-orange-light .notion-callout__icon {
+        border: 1px solid #633B19;
+        border: 1px solid color(display-p3 0.3668 0.2402 0.1234);
+        background: #573610;
+        background: color(display-p3 0.3213 0.2182 0.0935);
+        box-shadow: 16px 11px 5px 0px #371501, 10px 7px 5px 0px rgba(55, 21, 1, 0.01), 6px 4px 4px 0px rgba(55, 21, 1, 0.05), 3px 2px 3px 0px rgba(55, 21, 1, 0.09), 1px 0px 2px 0px rgba(55, 21, 1, 0.10);
+        box-shadow: 16px 11px 5px 0px color(display-p3 0.2 0.0902 0.0196 / 0.00), 10px 7px 5px 0px color(display-p3 0.2 0.0902 0.0196 / 0.01), 6px 4px 4px 0px color(display-p3 0.2 0.0902 0.0196 / 0.05), 3px 2px 3px 0px color(display-p3 0.2 0.0902 0.0196 / 0.09), 1px 0px 2px 0px color(display-p3 0.2 0.0902 0.0196 / 0.10);
+      }
+    
+      /*RED*/
+      .theme-dark .notion-callout.bg-red-light {
+        --cta-bg-color: #361214;
+        --cta-border-color: #5E090F;
+        --cta-bg-color-hover: #5E090F;
+        color: #FFE8E6;
+        color: color(display-p3 0.9882 0.9137 0.9059);
+        border: 1px solid #2F1011 !important;
+        border: 1px solid color(display-p3 0.184314 0.062745 0.066667) !important;
+        background: radial-gradient(109.38% 108.15% at 8.82% 0%, #42080B 0%, #171717 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, #282828 0%, #1B1010 100%);
+        background: radial-gradient(109.38% 108.15% at 8.82% 0%, color(display-p3 0.2368 0.0524 0.0524) 0%, color(display-p3 0.0916 0.0916 0.0916 / 0.00) 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, color(display-p3 0.1583 0.1583 0.1583) 0%, color(display-p3 0.1004 0.0636 0.0636) 100%);
+      }
+    
+      /*RED ICON*/
+     .theme-dark .notion-callout.bg-red-light .notion-callout__icon {
+        border: 1px solid #66191D;
+        border: 1px solid color(display-p3 0.3668 0.1234 0.1234);
+        background: #5E0A10;
+        background: color(display-p3 0.3364 0.0768 0.0768);
+        box-shadow: 16px 11px 5px 0px #0F0302, 10px 7px 5px 0px rgba(15, 3, 2, 0.01), 6px 4px 4px 0px rgba(15, 3, 2, 0.05), 3px 2px 3px 0px rgba(15, 3, 2, 0.09), 1px 0px 2px 0px rgba(15, 3, 2, 0.10);
+        box-shadow: 16px 11px 5px 0px color(display-p3 0.051 0.0118 0.0078 / 0.00), 10px 7px 5px 0px color(display-p3 0.051 0.0118 0.0078 / 0.01), 6px 4px 4px 0px color(display-p3 0.051 0.0118 0.0078 / 0.05), 3px 2px 3px 0px color(display-p3 0.051 0.0118 0.0078 / 0.09), 1px 0px 2px 0px color(display-p3 0.051 0.0118 0.0078 / 0.10);
+      }
+    
+      /*PURPLE*/
+      .theme-dark .notion-callout.bg-purple-light {
+        --cta-bg-color: #2B1633;
+        --cta-border-color: #4C225E;
+        --cta-bg-color-hover: #4C225E;
+        color: #EFCCFC;
+        color: color(display-p3 0.9137 0.8048 0.9764);
+        border: 1px solid #2A0045;
+        border: 1px solid color(display-p3 0.1451 0 0.2592);
+        background: radial-gradient(109.38% 108.15% at 8.82% 0%, #300B3F 0%, #171717 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, #282828 0%, #18101A 100%);
+        background: radial-gradient(109.38% 108.15% at 8.82% 0%, color(display-p3 0.1704 0.0524 0.2368) 0%, color(display-p3 0.0916 0.0916 0.0916 / 0.00) 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, color(display-p3 0.1583 0.1583 0.1583) 0%, color(display-p3 0.0881 0.0636 0.1004) 100%);
+      }
+    
+      /*PURPLE ICON*/
+      .theme-dark .notion-callout.bg-purple-light .notion-callout__icon {
+        border: 1px solid #4C225E;
+        border: 1px solid color(display-p3 0.298039 0.133333 0.368627);
+        background: #3E1B4C;
+        background: color(display-p3 0.2258 0.1148 0.2883);
+        box-shadow: 16px 11px 5px 0px #0C010F, 10px 7px 5px 0px rgba(12, 1, 15, 0.01), 6px 4px 4px 0px rgba(12, 1, 15, 0.05), 3px 2px 3px 0px rgba(12, 1, 15, 0.09), 1px 0px 2px 0px rgba(12, 1, 15, 0.10);
+        box-shadow: 16px 11px 5px 0px color(display-p3 0.0392 0.0039 0.0549 / 0.00), 10px 7px 5px 0px color(display-p3 0.0392 0.0039 0.0549 / 0.01), 6px 4px 4px 0px color(display-p3 0.0392 0.0039 0.0549 / 0.05), 3px 2px 3px 0px color(display-p3 0.0392 0.0039 0.0549 / 0.09), 1px 0px 2px 0px color(display-p3 0.0392 0.0039 0.0549 / 0.10);
+      }
+    
+      /*BLUE*/
+      .theme-dark .notion-callout.bg-blue-light {
+        --cta-bg-color: #111F35;
+        --cta-border-color: #173961;
+        --cta-bg-color-hover: #173961;
+        color: #E7F3FA;
+        color: color(display-p3 0.9151 0.9526 0.9788);
+        border: 1px solid #0F1B2C !important;
+        border: 1px solid color(display-p3 0.058824 0.105882 0.172549) !important;
+        background: radial-gradient(109.38% 108.15% at 8.82% 0%, #071E3F 0%, #171717 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, #282828 0%, #0F141A 100%);
+        background: radial-gradient(109.38% 108.15% at 8.82% 0%, color(display-p3 0.0524 0.1151 0.2368) 0%, color(display-p3 0.0916 0.0916 0.0916 / 0.00) 100%), radial-gradient(66.5% 62.99% at 31.22% 30.71%, color(display-p3 0.1583 0.1583 0.1583) 0%, color(display-p3 0.0636 0.0761 0.1004) 100%);
+      }
+    
+      /*BLUE ICON*/
+      .theme-dark .notion-callout.bg-blue-light .notion-callout__icon {
+        border: 1px solid #163960;
+        border: 1px solid color(display-p3 0.1234 0.2207 0.3668);
+        background: #0F2E5A;
+        background: color(display-p3 0.0921 0.1791 0.3415);
+        box-shadow: 16px 11px 5px 0px #002235, 10px 7px 5px 0px rgba(0, 34, 53, 0.01), 6px 4px 4px 0px rgba(0, 34, 53, 0.05), 3px 2px 3px 0px rgba(0, 34, 53, 0.09), 1px 0px 2px 0px rgba(0, 34, 53, 0.10);
+        box-shadow: 16px 11px 5px 0px color(display-p3 0.0196 0.1294 0.2 / 0.00), 10px 7px 5px 0px color(display-p3 0.0196 0.1294 0.2 / 0.01), 6px 4px 4px 0px color(display-p3 0.0196 0.1294 0.2 / 0.05), 3px 2px 3px 0px color(display-p3 0.0196 0.1294 0.2 / 0.09), 1px 0px 2px 0px color(display-p3 0.0196 0.1294 0.2 / 0.10);
+      }

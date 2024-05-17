@@ -10,7 +10,7 @@
   --color-red: #e33c4d !important;
   --color-primary: var(--color-green) !important;
   --color-code-text: #2fbaa1 !important;
-  --color-code-block: #24292b !important;
+  --color-code-block: var(--color-bg-gray-light) !important;
   --color-text-light: white !important;
   --color-accent-bg: var(--color-primary);
   --column-spacing: 15px !important;

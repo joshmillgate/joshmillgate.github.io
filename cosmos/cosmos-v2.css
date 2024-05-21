@@ -126,6 +126,7 @@ body {
 
 .notion-header__cover.has-cover {
     position: absolute !important;
+    left: 0 !important;
     width: 100% !important;
     top: -100px !important;
     margin-top: -20px !important;

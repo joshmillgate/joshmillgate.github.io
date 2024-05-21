@@ -708,6 +708,10 @@ code>span {
 }
 
 /*  fixes */
+.super-navbar__menu-wrapper {
+    height: auto!important;
+}
+
 .super-navbar__menu-wrapper .enter-done {
     position: absolute !important;
 }

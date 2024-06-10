@@ -118,6 +118,11 @@ body *:not(strong) {
         width: auto!important;
     }
 
+    .notion-header {
+        display: flex!important;
+        justify-content: center!important;
+    }
+
     .notion-header__title-wrapper {
         max-width: var(--layout-max-width)!important;
         margin-left: auto!important;

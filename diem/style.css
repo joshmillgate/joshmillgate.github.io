@@ -339,8 +339,6 @@ body *:not(strong) {
     position: absolute !important;
     bottom: 0 !important;
     width: 100% !important;
-    max-width: 100% !important;
-
 }
 
 .notion-header__cover.has-cover {

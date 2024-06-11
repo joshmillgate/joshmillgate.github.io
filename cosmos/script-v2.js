@@ -16,7 +16,7 @@ const footerCover = () => {
 window.addEventListener('load', e => {
     footerCover()
 
-    next.router.events.on('routeChangeComplete', url => {
+    window.events.on('routeChangeComplete', url => {
         footerCover()
     })
 })

@@ -83,6 +83,19 @@ body {
     max-width: calc(var(--max-width) + 200px) !important;
 }
 
+.super-navbar__breadcrumbs {
+    max-width: calc(var(--max-width) + 200px) !important;
+    margin: 0px auto !important;
+    border-radius: var(--border-radius) !important;
+    background: var(--color-bg-glass-default) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+}
+
+.notion-breadcrumb__item {
+    border-radius: var(--border-radius) !important;
+}
+
 .super-footer {
     background: var(--color-bg-glass-default) !important;
     backdrop-filter: blur(10px) !important;

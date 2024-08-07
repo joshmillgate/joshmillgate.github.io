@@ -575,7 +575,7 @@ p.notion-callout__content > span > span strong {
 
 /* MAIN BODY COL */
 
-.notion-root > .notion-column-list > .notion-column:nth-child(1) {
+.notion-root > .notion-column-list:first-child > .notion-column:nth-child(1) {
   padding-bottom: 100px !important;
   height: 100% !important;
   width: 100% !important;
@@ -588,7 +588,7 @@ p.notion-callout__content > span > span strong {
 
 /* 2ND COL TOC */
 
-.notion-root > .notion-column-list > .notion-column:nth-child(2) {
+.notion-root > .notion-column-list:first-child > .notion-column:nth-child(2) {
   padding: 20px !important;
   margin-left: 0 !important;
   min-width: 130px !important;

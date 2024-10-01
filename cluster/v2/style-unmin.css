@@ -582,7 +582,7 @@ p.notion-callout__content > span > span strong {
   padding-left: 40px !important;
   padding-right: 40px !important;
   max-width: 750px !important;
-  min-width: 500px !important;
+  /* min-width: 500px !important; */
   margin: 0 auto !important;
 }
 

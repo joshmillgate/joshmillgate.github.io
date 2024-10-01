@@ -586,6 +586,13 @@ p.notion-callout__content > span > span strong {
   margin: 0 auto !important;
 }
 
+@media all and (max-width: 860px) {
+  .notion-root > .notion-column-list:first-child > .notion-column:nth-child(1) {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+
 /* 2ND COL TOC */
 
 .notion-root > .notion-column-list:first-child > .notion-column:nth-child(2) {

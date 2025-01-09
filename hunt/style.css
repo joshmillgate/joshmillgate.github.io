@@ -62,7 +62,7 @@ body {
     border-radius: 20px!important;
 }
 
-h1.notion-heading {
+h1 {
     font-size: 42px!important;
     line-height: 48px!important;
 }
@@ -123,7 +123,6 @@ h1.notion-heading {
     border-radius: 100px!important;
     padding: 10px!important;
     color: var(--button-text-color)!important;
-    font-size: 16px!important;
     font-weight: 600!important;
     opacity: .5!important;
     transition: opacity .15s ease-in-out!important;

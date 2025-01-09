@@ -170,7 +170,6 @@ h1 {
 .gallery .notion-collection-card__property.notion-semantic-string {
     white-space: pre-wrap!important;
     opacity: .8!important;
-    font-size: 14px!important;
 }
 .notion-collection {
     transition: all .15s ease-in-out!important;

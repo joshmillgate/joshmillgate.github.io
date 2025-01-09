@@ -167,7 +167,7 @@ h1 {
 .notion-collection-card:hover .notion-collection-card__cover img {
     transform: scale(1.15)!important;
 }
-.gallery .notion-collection-card__property .notion-semantic-string {
+.gallery .notion-collection-card__property.notion-semantic-string {
     white-space: pre-wrap!important;
     opacity: .8!important;
     font-size: 14px!important;

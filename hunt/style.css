@@ -5,7 +5,7 @@
     --color-border-default: #e3e4f0!important;
     --button-bg-color: #202B3F!important;
     --button-text-color: #ffffff!important;
-    --mobile-menu-background-color: #FFFFFF;
+    --mobile-menu-background-color: var(--color-bg-default)!important;
     --list-item-border: #E1E9FF;
     --list-item-hover: #F1F5FF;
     --page-width: 1280px;
@@ -24,6 +24,7 @@
     --color-bg-default: #272b33!important;
     --color-border-default: #46474e!important;
     --list-item-hover: ##a5a5a530!important;
+    --mobile-menu-background-color: var(--color-bg-default)!important;
 }
 
 body {
